@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
-    public String wordAppend_Darryl(String[] strings) {
+    public static String wordAppend_Darryl(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         String result = "";
         for(int i = 0; i < strings.length; i++){
