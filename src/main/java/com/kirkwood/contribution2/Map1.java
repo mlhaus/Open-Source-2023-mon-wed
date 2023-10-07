@@ -4,6 +4,13 @@ import java.util.*;
 import java.util.Map;
 
 public class Map1 {
+    public static Map<String, String> mapAB_Wyatt(Map<String, String> map) {
+        if(map.containsKey("a") && map.containsKey("b")){
+            map.put("ab", map.get("a") + map.get("b"));
+        }
+        return map;
+    }
+          
 
     public Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
