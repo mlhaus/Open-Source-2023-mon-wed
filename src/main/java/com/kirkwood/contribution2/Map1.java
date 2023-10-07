@@ -5,6 +5,14 @@ import java.util.Map;
 
 public class Map1 {
 
+    public Map<String, String> topping1_james(Map<String, String> map) {
+        map.put("bread", "butter");
+        if(map.containsKey("ice cream")) {
+            map.put("ice cream", "cherry");
+        }
+        return map;
+    }
+
   public Map<String, String> mapAB4_chris(Map<String, String> map) {
     if (map.containsKey("a") && map.containsKey("b")) {
       String a = map.get("a");
@@ -104,3 +112,4 @@ public class Map1 {
     }
 
 }
+
