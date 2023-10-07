@@ -4,6 +4,16 @@ import java.util.Map;
 
 public class Map1 {
 
+    public static Map<String, String> mapShare_BenCollins(Map<String, String> map) {
+        if(map.containsKey("a")) {
+            map.put("b", map.get("a"));
+        }
+        if(map.containsKey("c")) {
+            map.remove("c");
+        }
+        return map;
+    }
+
     public static Map<String, String> topping1_everett(Map<String, String> map) {
         map.put("bread", "butter");
         if(map.containsKey("ice cream")) {
