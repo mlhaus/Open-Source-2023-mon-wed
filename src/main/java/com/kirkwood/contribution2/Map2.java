@@ -166,4 +166,23 @@ public class Map2 {
         return map;
     }
 
+    public String[] firstSwap_Michael(String[] strings) {
+        Map<String, Integer> holder = new HashMap<>();
+        List<String> prohibitedChars = new ArrayList<>();
+        for(int i = 0; i < strings.length; i++){
+            String firstChar = strings[i].charAt(0) + "";
+            if(!holder.containsKey(firstChar)){
+                holder.put(firstChar, i);
+            }else{
+                if(!prohibitedChars.contains(firstChar)){
+                    String temp = strings[holder.get(firstChar)];
+                    strings[holder.get(firstChar)] = strings[i];
+                    strings[i] = temp;
+                    prohibitedChars.add(firstChar);
+                }
+            }
+        }
+        return strings;
+    }
+
 }
