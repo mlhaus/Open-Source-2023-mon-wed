@@ -14,14 +14,10 @@ public class Map2 {
     }
   
     public static String wordAppend_MitchellStirmel(String[] strings) {
-
         Map<String, Integer> map    = new HashMap<String, Integer>();
-        String               result = "";
-
+        String result = "";
         for (int i = 0; i < strings.length; i++) {
-
             String key = strings[i];
-
             if (map.containsKey(key)) {
                 int val = map.get(key);
                 val++;
@@ -32,9 +28,7 @@ public class Map2 {
             } else {
                 map.put(key, 1);
             }
-
         }
-
         return result;
     }
 
@@ -59,20 +53,20 @@ public class Map2 {
         } return map;
     }
 
-  public String[] allSwap_chris(String[] strings) {
-    Map<String, Integer> map = new HashMap<>();
-    for(int i = 0; i < strings.length; i++){
-      if (!map.containsKey(Character.toString(strings[i].charAt(0)))){
-        map.put(Character.toString(strings[i].charAt(0)), i);
-      } else {
-        String temp = strings[i];
-        strings[i] = strings[map.get(Character.toString(strings[i].charAt(0)))];
-        strings[map.get(Character.toString(strings[i].charAt(0)))] = temp;
-        map.remove(Character.toString(strings[i].charAt(0)));
-      }
+    public String[] allSwap_chris(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(int i = 0; i < strings.length; i++){
+            if (!map.containsKey(Character.toString(strings[i].charAt(0)))){
+                map.put(Character.toString(strings[i].charAt(0)), i);
+            } else {
+                String temp = strings[i];
+                strings[i] = strings[map.get(Character.toString(strings[i].charAt(0)))];
+                strings[map.get(Character.toString(strings[i].charAt(0)))] = temp;
+                map.remove(Character.toString(strings[i].charAt(0)));
+            }
+        }
+        return strings;
     }
-    return strings;
-  }
 
     public static Map<String, Integer> wordLen_kate(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
@@ -125,7 +119,6 @@ public class Map2 {
             else{
                 map.put(strings[i], 1);
             }
-
         }
         return result;
     }
@@ -146,7 +139,6 @@ public class Map2 {
         return strings;
     }
 
-
     public Map<String, String> pairs_andrew(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for(String str: strings) {
@@ -165,5 +157,4 @@ public class Map2 {
         }
         return map;
     }
-
 }

@@ -14,8 +14,6 @@ public class Map1 {
         return map;
     }
 
-
-
     public static Map<String, String> mapAB4_MitchellStirmel(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             String a = map.get("a");
@@ -36,7 +34,6 @@ public class Map1 {
         }
         return map;
     }
-          
 
     public Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
@@ -99,7 +96,6 @@ public class Map1 {
     }
 
     public static Map<String, String> mapAB2_Darryl(Map<String, String> map) {
-
         if(map.containsKey("a") && map.containsKey("b")){
             if(map.get("a").equals(map.get("b"))){
                 map.remove("a");
@@ -117,7 +113,6 @@ public class Map1 {
         }
         return map;
     }
-          
           
     public Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
@@ -142,6 +137,4 @@ public class Map1 {
         }
         return map;
     }
-
 }
-
