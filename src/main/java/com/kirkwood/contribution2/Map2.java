@@ -1,40 +1,61 @@
 package com.kirkwood.contribution2;
 
-import java.util.*;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
-    public static Map<String, Integer> wordLen_mohmed(String[] strings) {
-        Map<String, Integer> map = new HashMap<>();
+  
+ public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+    Map<String, Integer> map = new HashMap();
+    for (String s:strings) {
+        map.put(s, s.length());
+    }
+    return map;
+  }
+
+    public static Map<String, Integer> wordLen_anthonytalamantes(String[] strings) {
+        Map<String, Integer> result = new HashMap<>();
         for (String str : strings) {
-            map.put(str, str.length());
+            result.put(str, str.length());
+        }
+        return result;
+    }
+
+    public static Map<String, Integer> wordLen_julien(String[] strings) {
+        Map<String, Integer> counter = new HashMap<>();
+        for (String str: strings) {
+            if (!counter.containsKey(str)) {
+                counter.put(str, str.length());
+            }
+        }
+        return counter;
+    }
+
+    public static Map<String, Boolean> wordMultiple_ryalie(String[] strings) {
+        Map<String, Integer> counter = new HashMap<>();
+        for(String str: strings) {
+            if(!counter.containsKey(str)) {
+                counter.put(str, 1);
+            } else {
+                counter.put(str, counter.get(str) + 1);
+            }
+        }
+        Map<String, Boolean> map = new HashMap<>();
+        for(String key: counter.keySet()) {
+            if(counter.get(key) >= 2) {
+                map.put(key, true);
+            } else {
+                map.put(key, false);
+            }
         }
         return map;
     }
-  
-    public static String wordAppend_MitchellStirmel(String[] strings) {
 
-        Map<String, Integer> map    = new HashMap<String, Integer>();
-        String               result = "";
-
-        for (int i = 0; i < strings.length; i++) {
-
-            String key = strings[i];
-
-            if (map.containsKey(key)) {
-                int val = map.get(key);
-                val++;
-                if (val % 2 == 0) {
-                    result += key;
-                }
-                map.put(key, val);
-            } else {
-                map.put(key, 1);
-            }
-
+    public static Map<String, Integer> wordLen_mohmed(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for (String str : strings) {
+            result.put(str, str.length());
         }
-
         return result;
     }
 
@@ -93,6 +114,7 @@ public class Map2 {
         }
         return counter;
     }
+
 
     public static Map<String, Integer> wordLen_everett(String[] strings) {
         Map<String, Integer> map = new HashMap();
