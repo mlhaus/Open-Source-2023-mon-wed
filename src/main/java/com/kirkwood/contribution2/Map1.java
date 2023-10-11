@@ -94,6 +94,13 @@ public class Map1 {
     }
 
 
+  public Map<String, String> mapAB_Miyada(Map<String, String> map) {
+        if(map.containsKey("a") && map.containsKey("b")) {
+              map.put("ab", map.get("a") + map.get("b"));
+        }
+        return map;
+    }
+
     public Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
         if (map.containsKey("ice cream")) {
