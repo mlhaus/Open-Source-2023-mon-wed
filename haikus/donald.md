@@ -1,8 +1,9 @@
-# Donald's Haiku
+# Foxes - A Haiku by Donald
 
 ```
-Foxes dance with grace,
-Furry forms in moonlight's embrace,
-Anthropomorphic chase.
+In woods, foxes dance,
+Human hearts in furry paws,
+Nature's wild romance.
 ```
+
 Like it or else :grin:
