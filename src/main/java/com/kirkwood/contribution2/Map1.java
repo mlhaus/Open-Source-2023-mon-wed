@@ -4,6 +4,31 @@ import java.util.*;
 import java.util.Map;
 
 public class Map1 {
+  
+  public static Map<String, String> mapBullyH_Akoi(Map<String, String> map){
+    String aStuff = map.get("a");
+    if(map.get("a") != null && !aStuff.equals("")) {
+        map.put("b", aStuff);
+        map.put("a", "");
+    }
+    return map;
+  }
+
+    public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
+        map.remove("c");
+        if(map.containsKey("a")){
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
+
+    public static Map<String, String> mapShare_julien(Map<String, String> map) {
+        map.remove("c");
+        if (map.containsKey("a")) {
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
 
     public static Map<String, String> topping3_marc(Map<String, String> map) {
         if (map.containsKey("potato") && !map.get("potato").equals("")) {
@@ -171,6 +196,17 @@ public class Map1 {
                 map.put("b", "");
             }
         }
+        return map;
+    }
+
+    public static Map<String, String> topping3_michael(Map<String, String> map) {
+        if(map.get("potato") != null){
+            map.put("fries", map.get("potato"));
+        }
+        if(map.get("salad") != null){
+            map.put("spinach", map.get("salad"));
+        }
+
         return map;
     }
 

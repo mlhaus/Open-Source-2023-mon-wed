@@ -1,9 +1,37 @@
 package com.kirkwood.contribution2;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Map2 {
+  
+ public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+    Map<String, Integer> map = new HashMap();
+    for (String s:strings) {
+        map.put(s, s.length());
+    }
+    return map;
+  }
+
+    public static Map<String, Integer> wordLen_anthonytalamantes(String[] strings) {
+        Map<String, Integer> result = new HashMap<>();
+        for (String str : strings) {
+            result.put(str, str.length());
+        }
+        return result;
+    }
+
+    public static Map<String, Integer> wordLen_julien(String[] strings) {
+        Map<String, Integer> counter = new HashMap<>();
+        for (String str: strings) {
+            if (!counter.containsKey(str)) {
+                counter.put(str, str.length());
+            }
+        }
+        return counter;
+    }
 
     public static Map<String, Boolean> wordMultiple_ryalie(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
@@ -54,7 +82,6 @@ public class Map2 {
             }
 
         }
-
         return result;
     }
 
@@ -114,6 +141,7 @@ public class Map2 {
         }
         return counter;
     }
+
 
     public static Map<String, Integer> wordLen_everett(String[] strings) {
         Map<String, Integer> map = new HashMap();
@@ -192,6 +220,25 @@ public class Map2 {
             map.put(strTemp.substring(0, 1), strTemp.substring(strTemp.length() - 1, strTemp.length()));
         }
         return map;
+    }
+
+    public String[] firstSwap_Michael(String[] strings) {
+        Map<String, Integer> holder = new HashMap<>();
+        List<String> prohibitedChars = new ArrayList<>();
+        for(int i = 0; i < strings.length; i++){
+            String firstChar = strings[i].charAt(0) + "";
+            if(!holder.containsKey(firstChar)){
+                holder.put(firstChar, i);
+            }else{
+                if(!prohibitedChars.contains(firstChar)){
+                    String temp = strings[holder.get(firstChar)];
+                    strings[holder.get(firstChar)] = strings[i];
+                    strings[i] = temp;
+                    prohibitedChars.add(firstChar);
+                }
+            }
+        }
+        return strings;
     }
 
 }
