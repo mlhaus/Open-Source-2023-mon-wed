@@ -189,5 +189,16 @@ public class Map1 {
         return map;
     }
 
+    public static Map<String, String> topping3_michael(Map<String, String> map) {
+        if(map.get("potato") != null){
+            map.put("fries", map.get("potato"));
+        }
+        if(map.get("salad") != null){
+            map.put("spinach", map.get("salad"));
+        }
+
+        return map;
+    }
+
 }
 
