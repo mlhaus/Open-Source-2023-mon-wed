@@ -124,9 +124,11 @@ public class Map1 {
         if(map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
         } else if(map.containsKey("b") && !map.containsKey("a")) {
+
+        }
           
           
-    public Map<String, String> topping2_andrew(Map<String, String> map) {
+    public static Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
             map.put("yogurt", map.get("ice cream")); // Set "yogurt" to the value of "ice cream"
         }
