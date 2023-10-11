@@ -6,13 +6,13 @@ import java.util.Map;
 
 public class Map1 {
   
-  public static Map<String String> mapBullyH_Akoi(Map<String, String> map){
-    String aStuff = map.get("a");
-    if(map.get("a") != null && !aStuff.equals("")) {
+  public static Map<String, String> mapBullyH_Akoi(Map<String, String> map){
+      String aStuff = map.get("a");
+      if(map.get("a") != null && !aStuff.equals("")) {
         map.put("b", aStuff);
         map.put("a", "");
-    }
-    return map;
+      }
+      return map;
   }
 
     public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
