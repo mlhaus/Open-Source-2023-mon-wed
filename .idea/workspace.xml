@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Haikus">
+    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="A complete of codebat contribution exercise for map1 and map2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +118,10 @@
       <workItem from="1696442150216" duration="8000" />
       <workItem from="1696444103995" duration="2760000" />
       <workItem from="1696446893142" duration="539000" />
+      <workItem from="1696867534683" duration="1571000" />
+      <workItem from="1696873903622" duration="379000" />
+      <workItem from="1697043219707" duration="812000" />
+      <workItem from="1697044937976" duration="1384000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <option name="closed" value="true" />
@@ -133,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696445500754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="A complete of codebat contribution exercise for map1 and map2">
+      <option name="closed" value="true" />
+      <created>1696868537556</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696868537556</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +156,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change" />
     <MESSAGE value="Haikus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Haikus" />
+    <MESSAGE value="A complete of codebat contribution exercise for map1 and map2" />
+    <option name="LAST_COMMIT_MESSAGE" value="A complete of codebat contribution exercise for map1 and map2" />
   </component>
 </project>
