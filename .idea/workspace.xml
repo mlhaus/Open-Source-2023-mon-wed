@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Uploaded my haiku">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Did the assignment regarding the issues we were supposed to submit and chose two maps which were mapAB$, wordCount">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="upstream/main" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="MatthewBaccam-haiku" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +60,8 @@
       <workItem from="1696442959235" duration="2296000" />
       <workItem from="1696445588471" duration="1278000" />
       <workItem from="1696628897864" duration="31000" />
-      <workItem from="1696873471177" duration="983000" />
+      <workItem from="1696873471177" duration="1095000" />
+      <workItem from="1697045115115" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="Uploaded my haiku">
       <created>1696444415454</created>
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696445927566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Did the assignment regarding the issues we were supposed to submit and chose two maps which were mapAB$, wordCount">
+      <created>1696874559637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696874559637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uploaded my haiku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploaded my haiku" />
+    <MESSAGE value="Did the assignment regarding the issues we were supposed to submit and chose two maps which were mapAB$, wordCount" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did the assignment regarding the issues we were supposed to submit and chose two maps which were mapAB$, wordCount" />
   </component>
 </project>
