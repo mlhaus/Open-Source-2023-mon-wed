@@ -6,8 +6,26 @@ import java.util.List;
 import java.util.Map;
 
 public class Map2 {
-  
- public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+
+    public  static String[] allSwapIbrahim(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(int i = 0;  i < strings.length; i++){
+            if(!map.containsKey(String.valueOf(strings[i].charAt(0)))){
+                map.put(String.valueOf(strings[i].charAt(0)), i);
+            }
+            else{
+                String hold = strings[i];
+                strings[i] = strings[map.get(String.valueOf(strings[i].charAt(0)))];
+                strings[map.get(String.valueOf(strings[i].charAt(0)))] = hold;
+                map.remove(String.valueOf(strings[i].charAt(0)));
+            }
+        }
+        return strings;
+    }
+
+
+
+    public static Map<String, Integer> wordLen_Akoi(String[] strings) {
     Map<String, Integer> map = new HashMap();
     for (String s:strings) {
         map.put(s, s.length());
@@ -210,6 +228,14 @@ public class Map2 {
             String first = String.valueOf(tmp.charAt(0));
             String last = String.valueOf(tmp.charAt(tmp.length() - 1));
             map.put(first, last);
+        }
+        return map;
+    }
+  
+      public Map<String, String> pairs(String[] strings) {
+        Map<String, String> map = new HashMap();
+        for (String s:strings) {
+            map.put(s.charAt(0) + "", s.charAt(s.length() - 1) + "");
         }
         return map;
     }
