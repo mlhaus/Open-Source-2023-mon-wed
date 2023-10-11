@@ -5,6 +5,14 @@ import java.util.Map;
 
 public class Map2 {
 
+    public static Map<String, Integer> wordLen_anthonytalamantes(String[] strings) {
+        Map<String, Integer> result = new HashMap<>();
+        for (String str : strings) {
+            result.put(str, str.length());
+        }
+        return result;
+    }
+
     public static Map<String, Integer> wordLen_julien(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
         for (String str: strings) {
@@ -38,33 +46,8 @@ public class Map2 {
     public static Map<String, Integer> wordLen_mohmed(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         for (String str : strings) {
-            map.put(str, str.length());
+            result.put(str, str.length());
         }
-        return map;
-    }
-  
-    public static String wordAppend_MitchellStirmel(String[] strings) {
-
-        Map<String, Integer> map    = new HashMap<String, Integer>();
-        String               result = "";
-
-        for (int i = 0; i < strings.length; i++) {
-
-            String key = strings[i];
-
-            if (map.containsKey(key)) {
-                int val = map.get(key);
-                val++;
-                if (val % 2 == 0) {
-                    result += key;
-                }
-                map.put(key, val);
-            } else {
-                map.put(key, 1);
-            }
-
-        }
-
         return result;
     }
 

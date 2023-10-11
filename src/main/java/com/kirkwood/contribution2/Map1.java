@@ -5,6 +5,15 @@ import java.util.Map;
 import java.util.Map;
 
 public class Map1 {
+
+    public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
+        map.remove("c");
+        if(map.containsKey("a")){
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
+
     public static Map<String, String> mapShare_julien(Map<String, String> map) {
         map.remove("c");
         if (map.containsKey("a")) {
@@ -170,7 +179,6 @@ public class Map1 {
         }
         return map;
     }
-
 
 }
 
