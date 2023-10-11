@@ -4,6 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
+  
+ public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+    Map<String, Integer> map = new HashMap();
+    for (String s:strings) {
+        map.put(s, s.length());
+    }
+    return map;
+  }
 
     public static Map<String, Integer> wordLen_anthonytalamantes(String[] strings) {
         Map<String, Integer> result = new HashMap<>();
