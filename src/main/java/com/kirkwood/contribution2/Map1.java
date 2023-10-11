@@ -5,6 +5,13 @@ import java.util.Map;
 import java.util.Map;
 
 public class Map1 {
+    public static Map<String, String> mapShare_julien(Map<String, String> map) {
+        map.remove("c");
+        if (map.containsKey("a")) {
+            map.put("b", map.get("a"));
+        }
+        return map;
+    }
 
     public static Map<String, String> topping3_marc(Map<String, String> map) {
         if (map.containsKey("potato") && !map.get("potato").equals("")) {

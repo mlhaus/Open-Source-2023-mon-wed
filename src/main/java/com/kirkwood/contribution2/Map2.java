@@ -5,6 +5,16 @@ import java.util.Map;
 
 public class Map2 {
 
+    public static Map<String, Integer> wordLen_julien(String[] strings) {
+        Map<String, Integer> counter = new HashMap<>();
+        for (String str: strings) {
+            if (!counter.containsKey(str)) {
+                counter.put(str, str.length());
+            }
+        }
+        return counter;
+    }
+
     public static Map<String, Boolean> wordMultiple_ryalie(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
         for(String str: strings) {
@@ -113,6 +123,7 @@ public class Map2 {
         }
         return counter;
     }
+
 
     public static Map<String, Integer> wordLen_everett(String[] strings) {
         Map<String, Integer> map = new HashMap();
