@@ -1,5 +1,5 @@
 package com.kirkwood.contribution2;
-
+import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -23,8 +23,7 @@ public class Map2 {
         return strings;
     }
 
-
-
+          
     public static Map<String, Integer> wordLen_Akoi(String[] strings) {
     Map<String, Integer> map = new HashMap();
     for (String s:strings) {
@@ -278,3 +277,4 @@ public class Map2 {
     }
 
 }
+

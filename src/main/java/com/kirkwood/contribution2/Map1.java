@@ -26,8 +26,8 @@ public class Map1 {
     if(map.get("a") != null && !aStuff.equals("")) {
         map.put("b", aStuff);
         map.put("a", "");
-    }
-    return map;
+      }
+      return map;
   }
 
     public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
