@@ -232,5 +232,14 @@ public class Map1 {
 
         return map;
     }
+  
+  public Map<String, String> mapShareChristivie(Map<String, String> map) {
+        if(map.containsKey("a")){
+            map.put("b", map.get("a"));
+        }
+        map.remove("c");
+        return map;
+    }
+
 
 }
