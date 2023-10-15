@@ -28,7 +28,7 @@ public class Map1 {
         map.put("a", "");
       }
       return map;
-  }
+    }
 
     public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
         map.remove("c");
@@ -109,8 +109,7 @@ public class Map1 {
         return map;
     }
 
-
-  public Map<String, String> mapAB_Miyada(Map<String, String> map) {
+    public Map<String, String> mapAB_Miyada(Map<String, String> map) {
         if(map.containsKey("a") && map.containsKey("b")) {
               map.put("ab", map.get("a") + map.get("b"));
         }
@@ -187,7 +186,7 @@ public class Map1 {
         }
         return map;
     }
-
+  
     public static Map<String, String> mapAB3_jared(Map<String, String> map) {
         if (map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
@@ -196,8 +195,7 @@ public class Map1 {
         }
         return map;
     }
-
-
+  
     public Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
             map.put("yogurt", map.get("ice cream")); // Set "yogurt" to the value of "ice cream"
@@ -207,7 +205,7 @@ public class Map1 {
         }
         return map;
     }
-
+  
     public static Map<String, String> mapAB4_tyler(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             if (map.get("a").length() > map.get("b").length()) {
@@ -233,13 +231,12 @@ public class Map1 {
         return map;
     }
   
-  public Map<String, String> mapShareChristivie(Map<String, String> map) {
+    public Map<String, String> mapShareChristivie(Map<String, String> map) {
         if(map.containsKey("a")){
             map.put("b", map.get("a"));
         }
         map.remove("c");
         return map;
     }
-
-
+  
 }
