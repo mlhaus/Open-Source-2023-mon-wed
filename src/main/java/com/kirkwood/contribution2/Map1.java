@@ -124,7 +124,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> mapAB4_chris(Map<String, String> map) {
+    public static Map<String, String> mapAB4_chris(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             String a = map.get("a");
             String b = map.get("b");

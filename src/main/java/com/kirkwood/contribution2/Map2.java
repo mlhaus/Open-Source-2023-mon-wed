@@ -134,7 +134,7 @@ public class Map2 {
         return map;
     }
 
-    public String[] allSwap_chris(String[] strings) {
+    public static String[] allSwap_chris(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < strings.length; i++) {
             if (!map.containsKey(Character.toString(strings[i].charAt(0)))) {
