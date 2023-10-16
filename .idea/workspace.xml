@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Completed Map2 topping1_james unit tests AND made Map2 firstChar_james static">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Finished Map2Test_James">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_James.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_James.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_James.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_James.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Map2Test_James.firstChar_james">
+  <component name="RunManager" selected="JUnit.Map1Test_James.topping1_james">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -129,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Map2Test_James.firstChar_james" />
         <item itemvalue="JUnit.Map1Test_James.topping1_james" />
+        <item itemvalue="JUnit.Map2Test_James.firstChar_james" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
       </list>
@@ -146,7 +146,7 @@
       <updated>1697038283134</updated>
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
-      <workItem from="1697478586930" duration="4281000" />
+      <workItem from="1697478586930" duration="5072000" />
     </task>
     <task id="LOCAL-00001" summary="Its making me commit to  pull">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697480725244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished Map2Test_James">
+      <option name="closed" value="true" />
+      <created>1697483005999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697483005999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Map1 topping1_james unit tests" />
     <MESSAGE value="Completed Map2 topping1_james unit tests AND made Map2 firstChar_james static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Map2 topping1_james unit tests AND made Map2 firstChar_james static" />
+    <MESSAGE value="Finished Map2Test_James" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Map2Test_James" />
   </component>
 </project>
