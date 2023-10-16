@@ -241,7 +241,7 @@ public class Map2 {
         return strings;
     }
 
-    public Map<String, Integer> wordCount_donald(String[] strings) {
+    public static Map<String, Integer> wordCount_donald(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
         for(String str: strings) {
             if(!counter.containsKey(str)) {
