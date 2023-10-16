@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Uploading anthony.md Haiku">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Anthony Talamantes Contribution 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <workItem from="1696443146741" duration="2114000" />
       <workItem from="1696446080920" duration="25000" />
       <workItem from="1696446170833" duration="609000" />
-      <workItem from="1696873452367" duration="974000" />
+      <workItem from="1696873452367" duration="1139000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading anthony.md Haiku">
       <option name="closed" value="true" />
@@ -77,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696444449383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Anthony Talamantes Contribution 2">
+      <option name="closed" value="true" />
+      <created>1696874495384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696874495384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +90,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uploading anthony.md Haiku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading anthony.md Haiku" />
+    <MESSAGE value="Anthony Talamantes Contribution 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anthony Talamantes Contribution 2" />
   </component>
 </project>
