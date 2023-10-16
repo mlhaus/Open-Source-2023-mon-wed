@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Committing XML Files">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Committing XML File">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Everett.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Everett.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -57,37 +57,102 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
-      <module name="empty-web-app" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kirkwood.contribution2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Map2Test_Everett.wordLen_everett3">
+    <configuration name="Map2Test_Everett.wordLen_everett1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Everett" />
+      <option name="METHOD_NAME" value="wordLen_everett1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.Test" />
-      <module name="empty-web-app" />
+    <configuration name="Map2Test_Everett.wordLen_everett2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Everett" />
+      <option name="METHOD_NAME" value="wordLen_everett2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_Everett.wordLen_everett3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Everett" />
+      <option name="METHOD_NAME" value="wordLen_everett3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_Everett.wordLen_everett4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Everett" />
+      <option name="METHOD_NAME" value="wordLen_everett4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_Everett.wordLen_everett5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Everett" />
+      <option name="METHOD_NAME" value="wordLen_everett5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloServlet" />
+        <item itemvalue="JUnit.Map2Test_Everett.wordLen_everett3" />
+        <item itemvalue="JUnit.Map2Test_Everett.wordLen_everett4" />
+        <item itemvalue="JUnit.Map2Test_Everett.wordLen_everett5" />
+        <item itemvalue="JUnit.Map2Test_Everett.wordLen_everett2" />
+        <item itemvalue="JUnit.Map2Test_Everett.wordLen_everett1" />
       </list>
     </recent_temporary>
   </component>
@@ -101,8 +166,17 @@
       <updated>1697038283134</updated>
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
-      <workItem from="1697478602347" duration="384000" />
+      <workItem from="1697478602347" duration="3911000" />
     </task>
+    <task id="LOCAL-00001" summary="Committing XML File">
+      <option name="closed" value="true" />
+      <created>1697479001017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697479001017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Committing XML Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing XML Files" />
+    <MESSAGE value="Committing XML File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing XML File" />
   </component>
 </project>
