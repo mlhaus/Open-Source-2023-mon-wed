@@ -116,10 +116,13 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> topping1_james(Map<String, String> map) {
+    public static Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
         if (map.containsKey("ice cream")) {
             map.put("ice cream", "cherry");
+        }
+        if (map.containsKey("bread")) {
+            map.put("bread", "butter");
         }
         return map;
     }
