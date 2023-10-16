@@ -1,4 +1,4 @@
-package com.kirkwood.contribution2;
+package contribution2;
 
 import java.util.*;
 import java.util.Map;
