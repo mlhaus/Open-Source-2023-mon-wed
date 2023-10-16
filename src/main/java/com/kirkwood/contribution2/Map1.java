@@ -254,6 +254,22 @@ public class Map1 {
             map.remove("c");
             return map;
         }
+
+
+    public static Map<String, String> topping1_donald(Map<String, String> map) {
+        map.put("bread", "butter");
+        if(map.containsKey("ice cream")){
+            map.put("ice cream", "cherry");
+        }
+        return map;
+    }
+  
+    public Map<String, String> mapShareChristivie(Map<String, String> map) {
+        if(map.containsKey("a")){
+            map.put("b", map.get("a"));
+        }
+        map.remove("c");
+        return map;
     }
 }
 
