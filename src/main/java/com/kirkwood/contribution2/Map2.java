@@ -1,13 +1,30 @@
 package com.kirkwood.contribution2;
-
+import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Map2 {
-  
- public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+
+    public  static String[] allSwapIbrahim(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for(int i = 0;  i < strings.length; i++){
+            if(!map.containsKey(String.valueOf(strings[i].charAt(0)))){
+                map.put(String.valueOf(strings[i].charAt(0)), i);
+            }
+            else{
+                String hold = strings[i];
+                strings[i] = strings[map.get(String.valueOf(strings[i].charAt(0)))];
+                strings[map.get(String.valueOf(strings[i].charAt(0)))] = hold;
+                map.remove(String.valueOf(strings[i].charAt(0)));
+            }
+        }
+        return strings;
+    }
+
+          
+    public static Map<String, Integer> wordLen_Akoi(String[] strings) {
     Map<String, Integer> map = new HashMap();
     for (String s:strings) {
         map.put(s, s.length());
@@ -94,6 +111,16 @@ public class Map2 {
     }
 
 
+   public Map<String, String> pairs_christivie(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        for(String str: strings){
+            //With a string, str.substring(i, j) returns the String that starts
+            // at index i and goes up to but not including j.
+            map.put(str.substring(0,1), str.substring(str.length()-1, str.length()));
+        }
+        return map;
+    }
+  
     public Map<String, String> firstChar_james(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for (String word : strings) {
@@ -213,6 +240,14 @@ public class Map2 {
         }
         return map;
     }
+  
+      public Map<String, String> pairs(String[] strings) {
+        Map<String, String> map = new HashMap();
+        for (String s:strings) {
+            map.put(s.charAt(0) + "", s.charAt(s.length() - 1) + "");
+        }
+        return map;
+    }
 
     public static Map<String, String> pairs_JacobRohr(String[] strings) {
         Map<String, String> map = new HashMap<String, String>();
@@ -256,3 +291,4 @@ public class Map2 {
 
 
 }
+
