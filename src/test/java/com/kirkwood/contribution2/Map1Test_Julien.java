@@ -26,5 +26,14 @@ class Map1Test_Julien {
         Map<String, String> map2b = Map1.mapShare_julien(map2a);
         assertEquals("xyz", map2a.get("b"));
         assertNull(map1a.get("c"));
+
+        Map<String, String> map3a = new HashMap<>();
+        map3a.put("a", "Hi");
+        map3a.put("b", "hey");
+        map3a.put("c", "hello");
+        Map<String, String> map3b = Map1.mapShare_julien(map3a);
+        assertEquals("Hi", map3a.get("a"));
+        assertEquals("Hi", map3a.get("b"));
+        assertNull(map3a.get("c"));
     }
 }

@@ -25,5 +25,9 @@ class Map2Test_Julien {
         String[] arr3 = {};
         Map<String, Integer> map3 = Map2.wordLen_julien(arr3);
         assertNull(map3.get(""));
+
+        String[] arr4 = {"z"};
+        Map<String, Integer> map4 = Map2.wordLen_julien(arr4);
+        assertEquals(1, map4.get("z"));
     }
 }
