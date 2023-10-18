@@ -72,5 +72,25 @@ class Map1Test_Mohmed {
         assertEquals("b",map2.get("b"));
         assertEquals("zebra",map2.get("z"));
 
+        map.clear();
+        map2.clear();
+
+        map.put("a","");
+        map.put("apple","a");
+        map.put("b","");
+        assertEquals("a",map2.get("apple"));
+
+        map.clear();
+        map2.clear();
+
+        map.put("a","aaa");
+        map.put("b","aaa");
+        map.put("c","mango");
+        map.put("d","aa");
+        map.put("e","aaa");
+        assertEquals("mango",map2.get("c"));
+        assertEquals("aa",map2.get("d"));
+        assertEquals("aaa",map2.get("e"));
+
     }
 }

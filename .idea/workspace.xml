@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Mohmed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Mohmed.java" afterDir="false" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Map1 and Map2 tests updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Mohmed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Mohmed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Mohmed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Mohmed.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="mohmed-tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +77,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Map1Test_Mohmed">
+  <component name="RunManager">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -172,7 +172,9 @@
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
       <workItem from="1697478609536" duration="8083000" />
-      <workItem from="1697564757609" duration="1399000" />
+      <workItem from="1697564757609" duration="1822000" />
+      <workItem from="1697650916738" duration="1352000" />
+      <workItem from="1697658397392" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="xml">
       <created>1697047278679</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697047423635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Map1 and Map2 tests updated.">
+      <created>1697566252776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697566252776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +212,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml" />
+    <MESSAGE value="Map1 and Map2 tests updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Map1 and Map2 tests updated." />
   </component>
 </project>

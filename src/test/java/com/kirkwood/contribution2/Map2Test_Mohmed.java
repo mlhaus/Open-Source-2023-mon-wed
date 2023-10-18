@@ -43,5 +43,13 @@ class Map2Test_Mohmed {
         map = Map2.wordLen_mohmed(arr5);
         assertEquals(1,map.get("z"));
 
+        map.clear();
+
+        String[] arr6 = {"count the string", "or", "word_len"};
+        map = Map2.wordLen_mohmed(arr6);
+        assertEquals(16,map.get("count the string"));
+        assertEquals(2,map.get("or"));
+        assertEquals(8,map.get("word_len"));
+
     }
 }
