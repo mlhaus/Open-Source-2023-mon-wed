@@ -6,6 +6,16 @@ import java.util.Map;
 
 public class Map1 {
 
+
+    public static Map<String, String> mapBully_gishe(Map<String, String> map) {
+        if (map.containsKey("a")) {
+            // move value from "a" to "b" and set "a" to ""
+            map.put("b", map.get("a"));
+            map.put("a", "");
+        }
+        return map;
+    }
+
     public static Map<String, String> mapAB4Ibrahim(Map<String, String> map) {
         if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() !=  map.get("b").length())) {
             if (map.get("a").length() > map.get("b").length()){
@@ -22,9 +32,7 @@ public class Map1 {
     }
 
 
-    public static Map<String, String> mapBullyH_Akoi(Map<String, String> map) {
-
-        public static Map<String, String> mapBullyH_Akoi (Map < String, String > map){
+    public static Map<String, String> mapBullyH_Akoi (Map < String, String > map){
             String aStuff = map.get("a");
             if (map.get("a") != null && !aStuff.equals("")) {
                 map.put("b", aStuff);
@@ -263,13 +271,6 @@ public class Map1 {
         }
         return map;
     }
-  
-    public Map<String, String> mapShareChristivie(Map<String, String> map) {
-        if(map.containsKey("a")){
-            map.put("b", map.get("a"));
-        }
-        map.remove("c");
-        return map;
-    }
+
 }
 
