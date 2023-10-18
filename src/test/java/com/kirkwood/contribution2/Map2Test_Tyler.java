@@ -28,5 +28,7 @@ class Map2Test_Tyler {
         assertEquals("d", output2.get("g"));
         assertEquals("n", output2.get("m"));
         assertEquals("t", output2.get("n"));
+
+        // this is the second one
     }
 }
