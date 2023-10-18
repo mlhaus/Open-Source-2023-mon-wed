@@ -58,5 +58,12 @@ class Map1Test_Darryl {
     Map<String, String> map4 = Map1.mapAB2_Darryl(map3);
     assertEquals(map3, map4);
 
+    Map<String, String> map5 = new HashMap<>();
+    map_00001.put("a", "a");
+    map_00001.put("b", "b");
+    map_00001.put("l", "lizard");
+    Map<String, String> map6 = Map1.mapAB2_Darryl(map5);
+    assertEquals(map5, map6);
+
   }
 }

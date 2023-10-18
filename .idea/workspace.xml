@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Update">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Contribution 3- map1 tests and map 2 tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Map1Test_Darryl">
+  <component name="RunManager" selected="JUnit.Map1Test_Darryl.mapAB2_Darryl">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.Test" />
       <module name="empty-web-app" />
@@ -141,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map1Test_Darryl.mapAB2_Darryl" />
         <item itemvalue="JUnit.Map1Test_Darryl" />
         <item itemvalue="JUnit.Map2Test_Darryl" />
         <item itemvalue="JUnit.Map2Test_Darryl.wordAppend_Darryl" />
-        <item itemvalue="JUnit.Map1Test_Darryl.mapAB2_Darryl" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -160,8 +160,19 @@
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
       <workItem from="1697478634501" duration="1996000" />
-      <workItem from="1697480647141" duration="1511000" />
+      <workItem from="1697480647141" duration="2831000" />
+      <workItem from="1697503176580" duration="35000" />
+      <workItem from="1697649577089" duration="150000" />
     </task>
+    <task id="LOCAL-00001" summary="Contribution 3- map1 tests and map 2 tests">
+      <option name="closed" value="true" />
+      <created>1697482486561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697482486561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Contribution 3- map1 tests and map 2 tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contribution 3- map1 tests and map 2 tests" />
   </component>
 </project>
