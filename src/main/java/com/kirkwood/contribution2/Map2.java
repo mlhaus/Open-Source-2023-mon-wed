@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
-
+//firstswap
     public static String[] firstSwap_max(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         for(int i = 0; i < strings.length; i++){
