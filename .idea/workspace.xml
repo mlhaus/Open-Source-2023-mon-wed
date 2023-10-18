@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Added my Map2 Tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Added my Map Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_ibrahim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="cont3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,39 +63,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Map2Test.TestallSwapIbrahim5">
-    <configuration name="Map2Test.TestallSwapIbrahim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Open-Source-2023-mon-wed" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
-      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test" />
-      <option name="METHOD_NAME" value="TestallSwapIbrahim" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Map2Test.TestallSwapIbrahim2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Open-Source-2023-mon-wed" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
-      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test" />
-      <option name="METHOD_NAME" value="TestallSwapIbrahim2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Map2Test_ibrahim">
     <configuration name="Map2Test.TestallSwapIbrahim3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-mon-wed" />
       <extension name="coverage">
@@ -145,13 +112,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map2Test_ibrahim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_ibrahim" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_ibrahim.TestallSwapIbrahim2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_ibrahim" />
+      <option name="METHOD_NAME" value="TestallSwapIbrahim2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map2Test_ibrahim" />
+        <item itemvalue="JUnit.Map2Test_ibrahim.TestallSwapIbrahim2" />
         <item itemvalue="JUnit.Map2Test.TestallSwapIbrahim5" />
         <item itemvalue="JUnit.Map2Test.TestallSwapIbrahim4" />
         <item itemvalue="JUnit.Map2Test.TestallSwapIbrahim3" />
-        <item itemvalue="JUnit.Map2Test.TestallSwapIbrahim2" />
-        <item itemvalue="JUnit.Map2Test.TestallSwapIbrahim" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +166,14 @@
       <workItem from="1697479611048" duration="3119000" />
       <workItem from="1697592554007" duration="1189000" />
     </task>
+    <task id="LOCAL-00001" summary="Added my Map Tests">
+      <created>1697594810641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697594810641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added my Map Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added my Map Tests" />
   </component>
 </project>
