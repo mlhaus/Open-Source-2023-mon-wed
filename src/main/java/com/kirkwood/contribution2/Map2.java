@@ -6,6 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 public class Map2 {
+    public static Map<String, Integer> wordLen_miyada(String[] strings) {
+        Map<String, Integer> map = new HashMap();
+        for (String s:strings) {
+            map.put(s, s.length());
+        }
+        return map;
+    }
+
 
     public  static String[] allSwapIbrahim(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
