@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Anthony Talamantes Contribution 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Anthony.java" afterDir="false" />
+    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Anthony Talamantes Contribution 3">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Anthony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +90,7 @@
       <workItem from="1696873452367" duration="1139000" />
       <workItem from="1697478617883" duration="6513000" />
       <workItem from="1697645708155" duration="2306000" />
+      <workItem from="1697666251720" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading anthony.md Haiku">
       <option name="closed" value="true" />
@@ -117,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697478674086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Anthony Talamantes Contribution 3">
+      <option name="closed" value="true" />
+      <created>1697666350704</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697666350704</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uploading anthony.md Haiku" />
     <MESSAGE value="Anthony Talamantes Contribution 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anthony Talamantes Contribution 2" />
+    <MESSAGE value="Anthony Talamantes Contribution 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anthony Talamantes Contribution 3" />
   </component>
 </project>
