@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7f22565-4f58-429b-b9f4-81746122053b" name="Changes" comment="fix it">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Michael.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_Michael.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Michael.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Michael.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
         &quot;associatedIndex&quot;: 8
@@ -41,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.HelloServlet">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -57,7 +64,7 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.Test" />
-      <module name="empty-web-app" />
+      <module name="Open-Source-2023-mon-wed" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
@@ -68,8 +75,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map1Test_Michael.topping3_michael" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map1Test_Michael" />
+      <option name="METHOD_NAME" value="topping3_michael" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map1Test_Michael.topping3_michael" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
       </list>
@@ -78,14 +102,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="" />
+      <changelist id="d7f22565-4f58-429b-b9f4-81746122053b" name="Changes" comment="fix it" />
       <created>1697038283134</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697038283134</updated>
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
+      <workItem from="1697649311824" duration="115000" />
     </task>
+    <task id="LOCAL-00001" summary="fix it">
+      <created>1697481029364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697481029364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
