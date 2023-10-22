@@ -78,4 +78,17 @@ class Map1Test_Ben {
         assertEquals("everything", map2.get("e"));
         assertFalse(map2.containsKey("c"));
     }
+
+    @Test
+    void mapShare_BenCollins_6() {
+        // mapShare({"a": "aaa", "z": "zzz", "t": "ttt"}) → {"a": "aaa", "b": "aaa"}
+        Map<String, String> map1 = new HashMap<>();
+        map1.put("a", "aaa");
+        map1.put("z", "zzz");
+        map1.put("t", "ttt");
+        Map<String, String> map2 = Map1.mapShare_BenCollins(map1);
+        assertEquals("aaa", map2.get("a"));
+        assertEquals("zzz", map2.get("z"));
+        assertEquals("ttt", map2.get("t"));
+    }
 }
