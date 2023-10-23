@@ -45,5 +45,18 @@ class Map1Test_Kate {
         assertEquals("air", map12.get("yogurt"));
         assertEquals("air", map12.get("ice cream"));
         assertEquals("oil", map12.get("salad"));
+        // topping2({"spinach" : "butter", "bread" : "butter", "ice cream" : "chocolate"}) →
+        //                  {"yogurt" : "chocolate", "spinach" : "nuts", "bread" : "butter", "ice cream" : "chocolate"}
+        Map<String, String> map13 = new HashMap<>()
+        {{
+            put("spinach", "butter");
+            put("bread", "butter");
+            put("ice cream", "chocolate");
+        }};
+        Map<String, String> map14 = Map1.topping2_kate(map13);
+        assertEquals("chocolate", map14.get("yogurt"));
+        assertEquals("nuts", map14.get("spinach"));
+        assertEquals("butter", map14.get("bread"));
+        assertEquals("chocolate", map14.get("ice cream"));
     }
 }
