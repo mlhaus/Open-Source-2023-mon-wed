@@ -36,5 +36,10 @@ class Map2Test_James {
         assertEquals("bellsbellsbells", map4.get("b"));
         assertEquals("saltsun", map4.get("s"));
         assertEquals("zen", map4.get("z"));
+
+        String[] str5 = {"aaa", "bbb", "ab"};
+        Map<String, String> map5 = Map2.firstChar_james(str5);
+        assertEquals("aaaab", map5.get("a"));
+        assertEquals("bbb", map5.get("b"));
     }
 }
