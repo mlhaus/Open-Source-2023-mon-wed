@@ -61,5 +61,4 @@ class Map1Test_Everett {
         assertEquals("cherry", map2.get("ice cream"));
         assertEquals("oil", map2.get("salad"));
     }
-
 }
