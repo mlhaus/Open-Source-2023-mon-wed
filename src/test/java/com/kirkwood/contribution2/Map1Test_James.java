@@ -31,6 +31,8 @@ class Map1Test_James {
         map7.put("bread", "dirt");
         map7.put("ice cream", "strawberries");
         map7.put("salad", "oil");
+        map7.put("pancake", "syrup");
+
         Map<String, String> map8 = Map1.topping1_james(map7);
         assertEquals("butter", map8.get("bread"));
         assertEquals("cherry", map8.get("ice cream"));
