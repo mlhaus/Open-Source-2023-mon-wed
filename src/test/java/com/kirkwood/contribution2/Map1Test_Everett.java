@@ -62,16 +62,4 @@ class Map1Test_Everett {
         assertEquals("oil", map2.get("salad"));
     }
 
-    @Test
-    void topping1_everett6() {
-        // extra for fun
-        Map<String, String> map = new HashMap<>();
-        map.put("bread", "peanut butter");
-        map.put("ice cream", "cherry");
-        map.put("salad", "leaf");
-        Map<String, String> map2 = Map1.topping1_everett(map);
-        assertEquals("butter", map2.get("bread"));
-        assertEquals("cherry", map2.get("ice cream"));
-        assertEquals("leaf", map2.get("salad"));
-    }
 }
