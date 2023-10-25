@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
-    public Map<String, Integer> word0_gsihe(String[] strings) {
+    public static Map<String, Integer> word0_gishe(String[] strings) {
         Map<String, Integer> wordMap = new HashMap<>();
         for (String s : strings) {
             wordMap.put(s, 0);
