@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Map2 {
-    public Map<String, String> pairs_christivie(String[] strings) {
+    public static Map<String, String> pairs_christivie(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for(String str: strings){
             //With a string, str.substring(i, j) returns the String that starts
