@@ -204,20 +204,6 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB4_tyler(Map<String, String> map) {
-        if (map.containsKey("a") && map.containsKey("b")) {
-            if (map.get("a").length() > map.get("b").length()) {
-                map.put("c", map.get("a"));
-            } else if (map.get("b").length() > map.get("a").length()) {
-                map.put("c", map.get("b"));
-            } else {
-                map.put("a", "");
-                map.put("b", "");
-            }
-        }
-        return map;
-    }
-
     public static Map<String, String> topping3_michael (Map < String, String > map){
         if (map.get("potato") != null) {
             map.put("fries", map.get("potato"));
@@ -257,5 +243,17 @@ public class Map1 {
         }
         return map;
     }
-
+    public static Map<String, String> mapAB4_tyler(Map<String, String> map) {
+        if(map.containsKey("a") && map.containsKey("b")){
+            if (map.get("a").length() > map.get("b").length()){
+                map.put("c", map.get("a"));
+            } else if (map.get("b").length() > map.get("a").length()){
+                map.put("c", map.get("b"));
+            } else {
+                map.put("a", "");
+                map.put("b", "");
+            }
+        }
+        return map;
+    }
 }
