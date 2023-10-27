@@ -7,6 +7,18 @@ import java.util.Map;
 
 public class Map2 {
 
+    public static Map<String, Boolean> wordMultiple_Matthew_Baccam(String[] strings){
+        Map<String, Boolean> map = new HashMap<>();
+        for (int i = 0; i < strings.length; i++) {
+            if (!map.containsKey(strings[i])) {
+                map.put(strings[i], false);
+            } else {
+                map.put(strings[i], true);
+            }
+        }
+        return map;
+    }
+
     public static Map<String, Integer> wordLen_Akoi(String[] strings) {
         Map<String, Integer> map = new HashMap();
         for (String s : strings) {
