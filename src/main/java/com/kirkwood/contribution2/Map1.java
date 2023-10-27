@@ -5,6 +5,16 @@ import java.util.Map;
 
 public class Map1 {
 
+
+    public static Map<String, String> mapBully_gishe(Map<String, String> map) {
+        if (map.containsKey("a")) {
+            // move value from "a" to "b" and set "a" to ""
+            map.put("b", map.get("a"));
+            map.put("a", "");
+        }
+        return map;
+    }
+
     public static Map<String, String> mapAB4Ibrahim(Map<String, String> map) {
         if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() != map.get("b").length())) {
             if (map.get("a").length() > map.get("b").length()) {
@@ -183,7 +193,7 @@ public class Map1 {
         }
         return map;
     }
-  
+
     public static Map<String, String> mapAB3_jared(Map<String, String> map) {
         if (map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
@@ -192,7 +202,7 @@ public class Map1 {
         }
         return map;
     }
-  
+
     public static Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
             map.put("yogurt", map.get("ice cream")); // Set "yogurt" to the value of "ice cream"
@@ -237,7 +247,7 @@ public class Map1 {
 
     public static Map<String, String> topping1_donald(Map<String, String> map) {
         map.put("bread", "butter");
-        if (map.containsKey("ice cream")) {
+        if(map.containsKey("ice cream")){
             map.put("ice cream", "cherry");
         }
         return map;

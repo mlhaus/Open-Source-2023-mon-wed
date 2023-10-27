@@ -6,6 +6,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Map2 {
+    public Map<String, Integer> word0_gsihe(String[] strings) {
+        Map<String, Integer> wordMap = new HashMap<>();
+        for (String s : strings) {
+            wordMap.put(s, 0);
+        }
+        return wordMap;
+    }
 
     public static Map<String, Boolean> wordMultiple_Matthew_Baccam(String[] strings){
         Map<String, Boolean> map = new HashMap<>();
