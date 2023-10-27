@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Map1Test_Chris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Map2Test_Chris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +21,6 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="upstream/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -42,41 +37,37 @@
         &quot;associatedIndex&quot;: 8
         }</component>
   <component name="ProjectId" id="2WciUGlGhKbrmeDKV2lABbHhaJS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;marc-tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chris\Documents\Kirkwood\Fall 2023\Java II CIS-175\Open-Source-2023-mon-wed\src" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Map1Test_Marc.topping3_marc">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="empty-web-app" />
@@ -103,8 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map1Test_Marc.topping3_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map1Test_Marc" />
+      <option name="METHOD_NAME" value="topping3_marc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Map1Test_Marc.topping3_marc" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.HelloServlet" />
       </list>
@@ -120,22 +128,12 @@
       <updated>1697038283134</updated>
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
-      <workItem from="1697478662219" duration="5300000" />
+      <workItem from="1697424097195" duration="1720000" />
+      <workItem from="1698260968895" duration="736000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
