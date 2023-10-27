@@ -5,7 +5,7 @@
 <%-- This is called a page directive. Use to import java files--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%-- Scriplets contain Java code embedded within HTML --%>
-<%--Comment for push --%>
+<%--Comment for push2 --%>
 
 <html>
 <head>
