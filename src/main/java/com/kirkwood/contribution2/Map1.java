@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Map;
 
 public class Map1 {
-/*
+
     public static Map<String, String> mapAB4Ibrahim(Map<String, String> map) {
         if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() != map.get("b").length())) {
             if (map.get("a").length() > map.get("b").length()) {
@@ -250,26 +250,6 @@ public class Map1 {
         }
         return map;
     }
-
-    public static Map<String, String> topping3_michael(Map<String, String> map) {
-        if (map.get("potato") != null) {
-            map.put("fries", map.get("potato"));
-        }
-        if (map.get("salad") != null) {
-            map.put("spinach", map.get("salad"));
-        }
-
-        return map;
-    }
-
-    public Map<String, String> mapShareChristivie(Map<String, String> map) {
-        if (map.containsKey("a")) {
-            map.put("b", map.get("a"));
-        }
-        map.remove("c");
-        return map;
-    }
-
 
     public static Map<String, String> topping1_donald(Map<String, String> map) {
         map.put("bread", "butter");
