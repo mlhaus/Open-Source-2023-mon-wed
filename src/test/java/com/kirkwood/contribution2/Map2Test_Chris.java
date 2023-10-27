@@ -1,3 +1,5 @@
+package com.kirkwood.contribution2;
+
 import com.kirkwood.contribution2.Map2;
 
 import org.junit.jupiter.api.Test;
