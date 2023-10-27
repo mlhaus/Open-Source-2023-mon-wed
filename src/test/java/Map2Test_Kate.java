@@ -30,5 +30,12 @@ class Map2Test_Kate {
         String[] strings5 = {"z"};
         Map<String, Integer> map5 = Map2.wordLen_kate(strings5);
         assertEquals(1, map5.get("z"));
+        // wordLen(["aaaaa", "codingbat", "h", "codingbat", "codingbat", "aaaaa"]) →
+        //                                                                 {"aaaaa" : 5, "codingbat" : 9, "h" : 1}
+        String[] strings6 = {"aaaaa", "codingbat", "h", "codingbat", "codingbat", "aaaaa"};
+        Map<String, Integer> map6 = Map2.wordLen_kate(strings6);
+        assertEquals(5, map6.get("aaaaa"));
+        assertTrue(9 == map6.get("codingbat"));
+        assertEquals(1, map6.get("h"));
     }
 }
