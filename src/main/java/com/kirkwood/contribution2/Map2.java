@@ -136,8 +136,7 @@ public class Map2 {
         return map;
     }
 
-
-    public Map<String, String> firstChar_james(String[] strings) {
+    public static Map<String, String> firstChar_james(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for (String word : strings) {
             String firstLetter = String.valueOf(word.charAt(0));
