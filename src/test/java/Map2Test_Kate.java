@@ -1,4 +1,4 @@
-import contribution2.Map2;
+import com.kirkwood.contribution2.Map2;
 import org.junit.jupiter.api.Test;
 import java.util.*;
 import static org.junit.jupiter.api.Assertions.*;
