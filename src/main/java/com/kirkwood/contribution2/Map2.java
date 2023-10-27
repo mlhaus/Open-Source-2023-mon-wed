@@ -6,6 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 public class Map2 {
+
+    public static Map<String, Integer> word0_gishe(String[] strings) {
+        Map<String, Integer> wordMap = new HashMap<>();
+        for (String s : strings) {
+            wordMap.put(s, 0);
+        }
+        return wordMap;
+    }
     public static Map<String, Integer> wordLen_miyada(String[] strings) {
         Map<String, Integer> map = new HashMap();
         for (String s:strings) {
@@ -14,7 +22,7 @@ public class Map2 {
         return map;
     }
 
-    public Map<String, Integer> word0_gsihe(String[] strings) {
+    public static Map<String, Integer> word0_gsihe(String[] strings) {
         Map<String, Integer> wordMap = new HashMap<>();
         for (String s : strings) {
             wordMap.put(s, 0);
@@ -149,7 +157,7 @@ public class Map2 {
         return map;
     }
 
-    public Map<String, String> pairs_christivie(String[] strings) {
+    public static Map<String, String> pairs_christivie(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for (String str : strings) {
             //With a string, str.substring(i, j) returns the String that starts
