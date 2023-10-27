@@ -68,7 +68,7 @@ public class Map2 {
 
     public static Map<String, Integer> wordLen_julien(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
-        for (String str : strings) {
+        for (String str: strings) {
             if (!counter.containsKey(str)) {
                 counter.put(str, str.length());
             }
