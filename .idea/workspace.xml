@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="Anthony Talamantes Contribution 3">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_Anthony.java" afterDir="false" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution2/Map2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,17 +17,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="upstream/main" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="anthonytalamantes-codingbat" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,15 +34,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2WJEBXhZHRQrzn0TYGQegrVL5YY" />
+    &quot;associatedIndex&quot;: 8
+    }</component>
+  <component name="ProjectId" id="2WciUGlGhKbrmeDKV2lABbHhaJS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -54,14 +51,11 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;marc-tests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -69,71 +63,105 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kirkwood.contribution2" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.java in Open-Source-2023-mon-wed">
+    <configuration name="All in Open-Source-2023-mon-wed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map1Test_Marc.topping3_marc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map1Test_Marc" />
+      <option name="METHOD_NAME" value="topping3_marc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_Jared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Jared" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Map2Test_Jared.allSwap_jared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
+      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test_Jared" />
+      <option name="METHOD_NAME" value="allSwap_jared" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Open-Source-2023-mon-wed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.java in Open-Source-2023-mon-wed" />
+        <item itemvalue="JUnit.All in Open-Source-2023-mon-wed" />
+        <item itemvalue="JUnit.Map2Test_Jared.allSwap_jared" />
+        <item itemvalue="JUnit.Map2Test_Jared" />
+        <item itemvalue="JUnit.Map1Test_Marc.topping3_marc" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95c840f6-b7fd-4b05-a5ac-281d85d21f10" name="Changes" comment="" />
-      <created>1696442148832</created>
+      <changelist id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="" />
+      <created>1697038283134</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696442148832</updated>
-      <workItem from="1696442150216" duration="8000" />
-      <workItem from="1696442963582" duration="150000" />
-      <workItem from="1696443117781" duration="25000" />
-      <workItem from="1696443146741" duration="2114000" />
-      <workItem from="1696446080920" duration="25000" />
-      <workItem from="1696446170833" duration="609000" />
-      <workItem from="1696873452367" duration="1139000" />
-      <workItem from="1697478617883" duration="6513000" />
-      <workItem from="1697645708155" duration="2306000" />
-      <workItem from="1697666251720" duration="2134000" />
+      <updated>1697038283134</updated>
+      <workItem from="1697038284109" duration="164000" />
+      <workItem from="1697038450736" duration="616000" />
+      <workItem from="1697424097195" duration="1720000" />
+      <workItem from="1698260968895" duration="736000" />
+      <workItem from="1698434961277" duration="584000" />
+      <workItem from="1698438379501" duration="248000" />
     </task>
-    <task id="LOCAL-00001" summary="Uploading anthony.md Haiku">
-      <option name="closed" value="true" />
-      <created>1696444449382</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1696444449383</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Anthony Talamantes Contribution 2">
-      <option name="closed" value="true" />
-      <created>1696874495384</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1696874495384</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Anthony Talamantes Contribution 2">
-      <option name="closed" value="true" />
-      <created>1697478674086</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1697478674086</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Anthony Talamantes Contribution 3">
-      <option name="closed" value="true" />
-      <created>1697666350704</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1697666350704</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Uploading anthony.md Haiku" />
-    <MESSAGE value="Anthony Talamantes Contribution 2" />
-    <MESSAGE value="Anthony Talamantes Contribution 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anthony Talamantes Contribution 3" />
   </component>
 </project>
