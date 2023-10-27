@@ -9,5 +9,8 @@
         <module name="Open-Source-2023-mon-wed" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Open-Source-2023-mon-wed" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
