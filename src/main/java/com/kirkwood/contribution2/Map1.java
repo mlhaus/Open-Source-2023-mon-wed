@@ -7,21 +7,21 @@ import java.util.Map;
 public class Map1 {
 /*
     public static Map<String, String> mapAB4Ibrahim(Map<String, String> map) {
-        if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() !=  map.get("b").length())) {
-            if (map.get("a").length() > map.get("b").length()){
+        if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() != map.get("b").length())) {
+            if (map.get("a").length() > map.get("b").length()) {
                 map.put("c", map.get("a"));
-            } else{
+            } else {
                 map.put("c", map.get("b"));
             }
         }
-        if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() ==  map.get("b").length())){
-            map.put("a","");
-            map.put("b","");
+        if ((map.containsKey("a") && map.containsKey("b")) && (map.get("a").length() == map.get("b").length())) {
+            map.put("a", "");
+            map.put("b", "");
         }
         return map;
     }
 
-    public static Map<String, String> mapBullyH_Akoi (Map < String, String > map){
+    public static Map<String, String> mapBullyH_Akoi(Map<String, String> map) {
         String aStuff = map.get("a");
         if (map.get("a") != null && !aStuff.equals("")) {
             map.put("b", aStuff);
@@ -30,7 +30,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapShare_anthonytalamantes (Map < String, String > map){
+    public static Map<String, String> mapShare_anthonytalamantes(Map<String, String> map) {
         map.remove("c");
         if (map.containsKey("a")) {
             map.put("b", map.get("a"));
@@ -38,7 +38,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapShare_julien (Map < String, String > map){
+    public static Map<String, String> mapShare_julien(Map<String, String> map) {
         map.remove("c");
         if (map.containsKey("a")) {
             map.put("b", map.get("a"));
@@ -46,7 +46,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> topping3_marc (Map < String, String > map){
+    public static Map<String, String> topping3_marc(Map<String, String> map) {
         if (map.containsKey("potato") && !map.get("potato").equals("")) {
             map.put("fries", map.get("potato"));
         }
@@ -56,7 +56,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> topping3_JacobRohr (Map < String, String > map){
+    public static Map<String, String> topping3_JacobRohr(Map<String, String> map) {
         if (map.containsKey("potato") && !map.get("potato").equals(null)) {
             map.put("fries", map.get("potato"));
 
@@ -67,7 +67,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> mapAB3_ryalie (Map < String, String > map){
+    public Map<String, String> mapAB3_ryalie(Map<String, String> map) {
         if (map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
         }
@@ -77,7 +77,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB2_mohmed (Map < String, String > map){
+    public static Map<String, String> mapAB2_mohmed(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             if (map.get("a").equals(map.get("b"))) {
                 map.remove("a");
@@ -87,8 +87,7 @@ public class Map1 {
         return map;
     }
 
-
-    public static Map<String, String> mapAB4_MitchellStirmel (Map < String, String > map){
+    public static Map<String, String> mapAB4_MitchellStirmel(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             String a = map.get("a");
             String b = map.get("b");
@@ -102,21 +101,22 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB_Wyatt (Map < String, String > map){
+    public static Map<String, String> mapAB_Wyatt(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             map.put("ab", map.get("a") + map.get("b"));
         }
         return map;
     }
 
-    public Map<String, String> mapAB_Miyada (Map < String, String > map){
+    public Map<String, String> mapAB_Miyada(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             map.put("ab", map.get("a") + map.get("b"));
         }
         return map;
     }
 
-    public Map<String, String> topping1_james (Map < String, String > map){
+
+    public Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
         if (map.containsKey("ice cream")) {
             map.put("ice cream", "cherry");
@@ -124,21 +124,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> mapAB4_chris (Map < String, String > map){
-        if (map.containsKey("a") && map.containsKey("b")) {
-            String a = map.get("a");
-            String b = map.get("b");
-            if (a.length() > b.length()) map.put("c", a);
-            else if (b.length() > a.length()) map.put("c", b);
-            else {
-                map.put("a", "");
-                map.put("b", "");
-            }
-        }
-        return map;
-    }
-
-    public static Map<String, String> topping2_kate (Map < String, String > map){
+    public static Map<String, String> topping2_kate(Map<String, String> map) {
         if (map.containsKey("ice cream") && !map.get("ice cream").isEmpty()) {
             map.put("yogurt", map.get("ice cream"));
         }
@@ -147,8 +133,22 @@ public class Map1 {
         }
         return map;
     }
+    
+    public static Map<String, String> mapAB4_chris(Map<String, String> map) {
+        if (map.containsKey("a") && map.containsKey("b")) {
+            String a = map.get("a");
+            String b = map.get("b");
+            if (a.length() > b.length()) map.put("c", a);
+            else if (b.length() > a.length()) map.put("c", b);
+            else {
+                map.put("a", "");
+                map.put("b", "");
+            }
+        }
+        return map;
+    }
 
-    public static Map<String, String> mapShare_BenCollins (Map < String, String > map){
+    public static Map<String, String> mapShare_BenCollins(Map<String, String> map) {
         if (map.containsKey("a")) {
             map.put("b", map.get("a"));
         }
@@ -158,7 +158,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> topping1_everett (Map < String, String > map){
+    public static Map<String, String> topping1_everett(Map<String, String> map) {
         map.put("bread", "butter");
         if (map.containsKey("ice cream")) {
             map.put("ice cream", "cherry");
@@ -166,7 +166,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB_Jennifer (Map < String, String > map){
+    public static Map<String, String> mapAB_Jennifer(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             if (map.get("a").equals(map.get("b"))) {
                 map.remove("a");
@@ -176,8 +176,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB2_Darryl (Map < String, String > map){
-
+    public static Map<String, String> mapAB2_Darryl(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             if (map.get("a").equals(map.get("b"))) {
                 map.remove("a");
@@ -187,7 +186,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB3_jared (Map < String, String > map){
+    public static Map<String, String> mapAB3_jared(Map<String, String> map) {
         if (map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
         } else if (map.containsKey("b") && !map.containsKey("a")) {
@@ -196,7 +195,7 @@ public class Map1 {
         return map;
     }
 
-    public Map<String, String> topping2_andrew (Map < String, String > map){
+    public Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
             map.put("yogurt", map.get("ice cream")); // Set "yogurt" to the value of "ice cream"
         }
@@ -206,7 +205,7 @@ public class Map1 {
         return map;
     }
 
-    public static Map<String, String> mapAB4_tyler (Map < String, String > map){
+    public static Map<String, String> mapAB4_tyler(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             if (map.get("a").length() > map.get("b").length()) {
                 map.put("c", map.get("a"));
@@ -237,17 +236,47 @@ public class Map1 {
         }
         map.remove("c");
         return map;
-    }*/
-        public static Map<String, String> mapAB4_Matthew_Baccam (Map < String, String > map){
-            if (map.get("a") != null && map.get("b") != null) {
-                if (map.get("a").length() == map.get("b").length()) {
-                    map.put("a", "");
-                    map.put("b", "");
-                }
-                if (map.get("a").length() != map.get("b").length()) {
-                    map.put("c", map.get("a").length() > map.get("b").length() ? map.get("a") : map.get("b"));
-                }
-            }
-            return map;
-        }
     }
+
+    public static Map<String, String> mapAB4_Matthew_Baccam(Map<String, String> map) {
+        if (map.get("a") != null && map.get("b") != null) {
+            if (map.get("a").length() == map.get("b").length()) {
+                map.put("a", "");
+                map.put("b", "");
+            }
+            if (map.get("a").length() != map.get("b").length()) {
+                map.put("c", map.get("a").length() > map.get("b").length() ? map.get("a") : map.get("b"));
+            }
+        }
+        return map;
+    }
+
+    public static Map<String, String> topping3_michael(Map<String, String> map) {
+        if (map.get("potato") != null) {
+            map.put("fries", map.get("potato"));
+        }
+        if (map.get("salad") != null) {
+            map.put("spinach", map.get("salad"));
+        }
+
+        return map;
+    }
+
+    public Map<String, String> mapShareChristivie(Map<String, String> map) {
+        if (map.containsKey("a")) {
+            map.put("b", map.get("a"));
+        }
+        map.remove("c");
+        return map;
+    }
+
+
+    public static Map<String, String> topping1_donald(Map<String, String> map) {
+        map.put("bread", "butter");
+        if (map.containsKey("ice cream")) {
+            map.put("ice cream", "cherry");
+        }
+        return map;
+    }
+
+}
