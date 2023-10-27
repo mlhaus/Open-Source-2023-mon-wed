@@ -1,19 +1,45 @@
 package com.kirkwood.contribution2;
+
 import java.util.*;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Map2 {
+    public Map<String, Integer> word0_gsihe(String[] strings) {
+        Map<String, Integer> wordMap = new HashMap<>();
+        for (String s : strings) {
+            wordMap.put(s, 0);
+        }
+        return wordMap;
+    }
 
-    public  static String[] allSwapIbrahim(String[] strings) {
-        Map<String, Integer> map = new HashMap<>();
-        for(int i = 0;  i < strings.length; i++){
-            if(!map.containsKey(String.valueOf(strings[i].charAt(0)))){
-                map.put(String.valueOf(strings[i].charAt(0)), i);
+    public static Map<String, Boolean> wordMultiple_Matthew_Baccam(String[] strings){
+        Map<String, Boolean> map = new HashMap<>();
+        for (int i = 0; i < strings.length; i++) {
+            if (!map.containsKey(strings[i])) {
+                map.put(strings[i], false);
+            } else {
+                map.put(strings[i], true);
             }
-            else{
+        }
+        return map;
+    }
+
+    public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+        Map<String, Integer> map = new HashMap();
+        for (String s : strings) {
+            map.put(s, s.length());
+        }
+        return map;
+    }
+
+    public static String[] allSwapIbrahim(String[] strings) {
+        Map<String, Integer> map = new HashMap<>();
+        for (int i = 0; i < strings.length; i++) {
+            if (!map.containsKey(String.valueOf(strings[i].charAt(0)))) {
+                map.put(String.valueOf(strings[i].charAt(0)), i);
+            } else {
                 String hold = strings[i];
                 strings[i] = strings[map.get(String.valueOf(strings[i].charAt(0)))];
                 strings[map.get(String.valueOf(strings[i].charAt(0)))] = hold;
@@ -23,14 +49,6 @@ public class Map2 {
         return strings;
     }
 
-          
-    public static Map<String, Integer> wordLen_Akoi(String[] strings) {
-    Map<String, Integer> map = new HashMap();
-    for (String s:strings) {
-        map.put(s, s.length());
-    }
-    return map;
-  }
 
     public static Map<String, Integer> wordLen_anthonytalamantes(String[] strings) {
         Map<String, Integer> result = new HashMap<>();
@@ -42,7 +60,7 @@ public class Map2 {
 
     public static Map<String, Integer> wordLen_julien(String[] strings) {
         Map<String, Integer> counter = new HashMap<>();
-        for (String str: strings) {
+        for (String str : strings) {
             if (!counter.containsKey(str)) {
                 counter.put(str, str.length());
             }
@@ -111,16 +129,6 @@ public class Map2 {
     }
 
 
-   public Map<String, String> pairs_christivie(String[] strings) {
-        Map<String, String> map = new HashMap<>();
-        for(String str: strings){
-            //With a string, str.substring(i, j) returns the String that starts
-            // at index i and goes up to but not including j.
-            map.put(str.substring(0,1), str.substring(str.length()-1, str.length()));
-        }
-        return map;
-    }
-  
     public Map<String, String> firstChar_james(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for (String word : strings) {
@@ -134,7 +142,17 @@ public class Map2 {
         return map;
     }
 
-    public String[] allSwap_chris(String[] strings) {
+    public Map<String, String> pairs_christivie(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        for (String str : strings) {
+            //With a string, str.substring(i, j) returns the String that starts
+            // at index i and goes up to but not including j.
+            map.put(str.substring(0, 1), str.substring(str.length() - 1, str.length()));
+        }
+        return map;
+    }
+
+    public static String[] allSwap_chris(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         for (int i = 0; i < strings.length; i++) {
             if (!map.containsKey(Character.toString(strings[i].charAt(0)))) {
@@ -222,7 +240,7 @@ public class Map2 {
     }
 
 
-    public Map<String, String> pairs_andrew(String[] strings) {
+    public static Map<String, String> pairs_andrew(String[] strings) {
         Map<String, String> map = new HashMap<>();
         for (String str : strings) {
             map.put(str.substring(0, 1), str.substring(str.length() - 1, str.length()));
@@ -240,10 +258,10 @@ public class Map2 {
         }
         return map;
     }
-  
-      public Map<String, String> pairs(String[] strings) {
+
+    public Map<String, String> pairs(String[] strings) {
         Map<String, String> map = new HashMap();
-        for (String s:strings) {
+        for (String s : strings) {
             map.put(s.charAt(0) + "", s.charAt(s.length() - 1) + "");
         }
         return map;
@@ -260,12 +278,12 @@ public class Map2 {
     public String[] firstSwap_Michael(String[] strings) {
         Map<String, Integer> holder = new HashMap<>();
         List<String> prohibitedChars = new ArrayList<>();
-        for(int i = 0; i < strings.length; i++){
+        for (int i = 0; i < strings.length; i++) {
             String firstChar = strings[i].charAt(0) + "";
-            if(!holder.containsKey(firstChar)){
+            if (!holder.containsKey(firstChar)) {
                 holder.put(firstChar, i);
-            }else{
-                if(!prohibitedChars.contains(firstChar)){
+            } else {
+                if (!prohibitedChars.contains(firstChar)) {
                     String temp = strings[holder.get(firstChar)];
                     strings[holder.get(firstChar)] = strings[i];
                     strings[i] = temp;
@@ -274,6 +292,18 @@ public class Map2 {
             }
         }
         return strings;
+    }
+
+    public static Map<String, Integer> wordCount_donald(String[] strings) {
+        Map<String, Integer> counter = new HashMap<>();
+        for (String str : strings) {
+            if (!counter.containsKey(str)) {
+                counter.put(str, 1);
+            } else {
+                counter.put(str, counter.get(str) + 1);
+            }
+        }
+        return counter;
     }
 
 }
