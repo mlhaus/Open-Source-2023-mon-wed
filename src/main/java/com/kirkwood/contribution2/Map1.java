@@ -2,7 +2,6 @@ package com.kirkwood.contribution2;
 
 import java.util.*;
 import java.util.Map;
-import java.util.Map;
 
 public class Map1 {
 
@@ -133,7 +132,7 @@ public class Map1 {
         }
         return map;
     }
-    
+
     public static Map<String, String> mapAB4_chris(Map<String, String> map) {
         if (map.containsKey("a") && map.containsKey("b")) {
             String a = map.get("a");
