@@ -114,7 +114,6 @@ public class Map1 {
         return map;
     }
 
-
     public Map<String, String> topping1_james(Map<String, String> map) {
         map.put("bread", "butter");
         if (map.containsKey("ice cream")) {
@@ -184,7 +183,7 @@ public class Map1 {
         }
         return map;
     }
-
+  
     public static Map<String, String> mapAB3_jared(Map<String, String> map) {
         if (map.containsKey("a") && !map.containsKey("b")) {
             map.put("b", map.get("a"));
@@ -193,8 +192,8 @@ public class Map1 {
         }
         return map;
     }
-
-    public Map<String, String> topping2_andrew(Map<String, String> map) {
+  
+    public static Map<String, String> topping2_andrew(Map<String, String> map) {
         if (map.containsKey("ice cream")) {
             map.put("yogurt", map.get("ice cream")); // Set "yogurt" to the value of "ice cream"
         }
