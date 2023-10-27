@@ -34,10 +34,10 @@ public class Map2 {
         return map;
     }
 
-    public static Map<String, Integer> wordLen_Akoi(String[] strings) {
+    public static Map <String, Integer> wordLen_Akoi(String[]  strings){
         Map<String, Integer> map = new HashMap();
-        for (String s : strings) {
-            map.put(s, s.length());
+        for(String s:strings){
+            map.put(s,s.length());
         }
         return map;
     }
