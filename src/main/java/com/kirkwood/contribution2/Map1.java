@@ -265,4 +265,17 @@ public class Map1 {
         }
         return map;
     }
+
+    public static Map<String, String> mapAB3_max(Map<String, String> map) {
+        if(map.containsKey("a")){
+            if(!map.containsKey("b")){
+                map.put("b", map.get("a"));
+            }
+        }
+        else if(map.containsKey("b")){
+            map.put("a", map.get("b"));
+        }
+        return map;
+    }
+
 }
