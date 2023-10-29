@@ -5,9 +5,7 @@
         <title>JSP - Hello World</title>
     </head>
         <body>
-        <h1>
-            <%= "Hello World!" %>
-        </h1>
+        <h1>Java 2 Kirkwood Monday-Wednesday Calculators</h1>
         <br/>
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
