@@ -9,6 +9,6 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<p><a href="james-measuring-conversion">James' Measuring Conversions</a></p>
+<p><a href="james-measuring-conversion">Measuring Conversions - James</a></p>
 </body>
 </html>

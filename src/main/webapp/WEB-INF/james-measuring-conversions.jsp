@@ -14,12 +14,13 @@
 </head>
 <body>
 <div class="container my-4">
-    <div class="row">
-        <div class="col-8">
+    <div class="row py-0">
+        <div class="col-8 bg-light">
             <h1>Let's Convert!</h1>
 
             <form method="POST" action="james-measuring-conversions">
                 <div class="form-group mb-2 border p-2">
+
                     <h3>Original Amount: </h3>
                     <input name="amount" value="${results.amount}" type="text" class="form-control my-3" id="amount">
                     <select name="og-type" class="form-select" aria-label="Original Amount:">

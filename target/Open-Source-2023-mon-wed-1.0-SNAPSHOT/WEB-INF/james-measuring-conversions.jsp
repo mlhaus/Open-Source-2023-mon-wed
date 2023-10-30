@@ -5,7 +5,7 @@
 <%-- This is called a page directive. Use to import java files--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%-- Scriplets contain Java code embedded within HTML --%>
-
+<%--Comment for push --%>
 
 <html>
 <head>
@@ -15,7 +15,7 @@
 <body>
 <div class="container my-4">
     <div class="row">
-        <div class="col-8">
+        <div class="col-8 bg-light">
             <h1>Let's Convert!</h1>
 
             <form method="POST" action="james-measuring-conversions">
