@@ -10,5 +10,9 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="jared_volume_conversion">
+            Jared's Volume Converter
+        </a>
     </body>
 </html>
