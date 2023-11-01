@@ -8,6 +8,6 @@
 <h1><%= "Hello World!" %>
 </h1>
 <br/>
-<a href="Darryl-Distance-Calculator">Darryl's Distance Calculator</a>
+<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
