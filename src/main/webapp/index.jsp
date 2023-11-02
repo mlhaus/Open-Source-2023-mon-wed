@@ -10,5 +10,9 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="andrew_inches_feet_yards">
+            Andrew's Inches, Feet, and Yards, Calculator
+        </a>
     </body>
 </html>
