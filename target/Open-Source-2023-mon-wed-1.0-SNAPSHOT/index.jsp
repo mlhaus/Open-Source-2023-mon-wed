@@ -10,5 +10,7 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="uscs-calculator">Ben's US Customary System Conversion Calculator</a>
     </body>
 </html>
