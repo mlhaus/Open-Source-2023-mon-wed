@@ -10,5 +10,9 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="everett-metric-calculator">
+            Everett's Metric Conversion Calculator
+        </a>
     </body>
 </html>
