@@ -10,5 +10,7 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="chrisFutureValue">Chris's Future Value Calculator</a>
     </body>
 </html>
