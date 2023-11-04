@@ -10,5 +10,7 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br>
+        <a href="michael_tvm_calculator">TVM by Michael</a>
     </body>
 </html>
