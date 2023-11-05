@@ -62,6 +62,7 @@ public class TylerCalculator extends HttpServlet {
                 out = inInches / 36;
                 break;
         }
+
         return String.valueOf(out);
     }
 }
