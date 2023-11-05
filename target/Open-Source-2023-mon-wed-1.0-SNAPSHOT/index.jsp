@@ -38,5 +38,7 @@
         </a>
         <br/>
         <a href="distance-convert">Christivie's Calculator</a>
+        <br/>
+        <a href="chrisFutureValue">Chris's Future Value Calculator</a>
     </body>
 </html>
