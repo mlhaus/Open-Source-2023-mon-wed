@@ -1,11 +1,12 @@
 package com.kirkwood.contribution2;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
-import static org.junit.Assert.assertEquals;
-public class Map1Test_gishe {
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class Map1Test_gishe {
     @Test
     public void mapBully_gishe() {
         Map<String, String> map = new HashMap<>();

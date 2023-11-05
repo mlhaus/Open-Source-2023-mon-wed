@@ -1,11 +1,11 @@
-package com.kirkwood.utilities;
+package com.kirkwood.contribution5;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 public class Helpers {
     public static String round(double num) {
-        DecimalFormat df = new DecimalFormat("#.##");
+        DecimalFormat df = new DecimalFormat("#.########");
         df.setRoundingMode(RoundingMode.HALF_UP);
         return df.format(num);
     }
