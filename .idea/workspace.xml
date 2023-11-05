@@ -10,20 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution5/Fraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution5/FractionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution5/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/contribution5/convert-fraction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/contribution5/convert-fraction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/bencollins/BenCollinsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/bencollins-USCScalculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/bencollins-USCScalculator.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_gishe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_gishe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_gishe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_gishe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -25,8 +25,6 @@
         <br/>
         <a href="/Open_Source_2023_mon_wed_war_exploded/convert-fraction">Mohmed's Fraction Converter</a>
         <br/>
-        <a href="andrew_inches_feet_yards">
-            Andrew's Inches, Feet, and Yards, Calculator
-        </a>
+        <a href="uscs-calculator">Ben's US Customary System Conversion Calculator</a>
     </body>
 </html>
