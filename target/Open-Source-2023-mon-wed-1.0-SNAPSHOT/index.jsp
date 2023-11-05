@@ -10,5 +10,15 @@
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="james-measuring-conversion">Measuring Conversions - James</a>
+        <br/>
+        <a href="jared_volume_conversion">
+            Jared's Volume Converter
+        </a>
+        <br/>
+        <a href="tyler-calculator">Tyler's Calculator</a>
+        <br/>
+        <a href="mitchellservlet">Hello Servlet</a>
     </body>
 </html>
