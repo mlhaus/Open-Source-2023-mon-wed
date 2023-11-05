@@ -28,5 +28,9 @@
         <a href="uscs-calculator">Ben's US Customary System Conversion Calculator</a>
         <br/>
         <a href="time-convert-akoi">Akoi's Time Converter</a>
+        <br/>
+        <a href="everett-metric-calculator">
+            Everett's Metric Conversion Calculator
+        </a>
     </body>
 </html>
