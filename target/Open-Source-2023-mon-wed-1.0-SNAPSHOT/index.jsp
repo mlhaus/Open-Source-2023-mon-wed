@@ -36,5 +36,7 @@
         <a href="julien_measure_converter">
             Julien's Measurement Calculator
         </a>
+        <br/>
+        <a href="distance-convert">Christivie's Calculator</a>
     </body>
 </html>
