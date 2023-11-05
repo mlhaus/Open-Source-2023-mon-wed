@@ -8,7 +8,9 @@
         <h1>Java 2 Kirkwood Monday-Wednesday Calculators</h1>
         <br/>
         <a href="kate_compound_interest">
-            mKate's Compound Interest Calculator
+            Kate's Compound Interest Calculator
         </a>
+        <br/>
+        <a href="james-measuring-conversion">Measuring Conversions - James</a>
     </body>
 </html>
