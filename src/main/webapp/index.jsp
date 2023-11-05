@@ -32,5 +32,9 @@
         <a href="everett-metric-calculator">
             Everett's Metric Conversion Calculator
         </a>
+        <br/>
+        <a href="julien_measure_converter">
+            Julien's Measurement Calculator
+        </a>
     </body>
 </html>
