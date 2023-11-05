@@ -17,18 +17,29 @@
       <p class="lead">Enter two numbers and press calculate inches, feet, yards.</p>
       <form method="POST" action="tyler-calculator">
         <div class="form-group mb-2">
-          <label for="firstNumber">Inches:</label>
+          <label for="firstNumber">Number input:</label>
           <input name="num1" value="${results.get("num1")}" type="text" class="form-control" id="firstNumber">
         </div>
-        <select name="timePeriod" class="form-select" aria-label="Select what to convert inches to">
+        <p>Select what to convert from</p>
+        <select name="fromType" class="form-select" aria-label="Select what to convert from">
           <option>Select a time period</option>
           <option ${results.timePeriod == 'inch' ? 'selected' : ''} value="inch">Inches</option>
           <option ${results.timePeriod == 'feet' ? 'selected' : ''} value="feet">Feet</option>
           <option ${results.timePeriod == 'yard' ? 'selected' : ''} value="yard">Yards</option>
         </select>
+        <br>
+        <p>Select what to convert to</p>
+        <select name="toType" class="form-select" aria-label="Select what to convert to">
+          <option>Select a time period</option>
+          <option ${results.timePeriod == 'inch' ? 'selected' : ''} value="inch">Inches</option>
+          <option ${results.timePeriod == 'feet' ? 'selected' : ''} value="feet">Feet</option>
+          <option ${results.timePeriod == 'yard' ? 'selected' : ''} value="yard">Yards</option>
+        </select>
+        <br>
+
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
-      <c:if test="${!results.convertOutput.isEmpty()}"><p>${results.num1} inch(es) equals ${results.convertOutput} ${results.timePeriod}</p></c:if>
+      <p>${results.convertOutput}</p>
     </div>
   </div>
 </div>
