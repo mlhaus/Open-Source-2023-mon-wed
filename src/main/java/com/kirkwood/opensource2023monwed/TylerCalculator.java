@@ -19,30 +19,47 @@ public class TylerCalculator extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String num1 = req.getParameter("num1");
-        String timePeriod = req.getParameter("timePeriod");
+        String fromType = req.getParameter("fromType");
+        String toType = req.getParameter("toType");
+
         results.clear();
-        results.put("num1", num1);
-        results.put("timePeriod", timePeriod);
-        results.put("convertOutput", calcValues(num1, timePeriod));
+        if(num1.equals("") || fromType.equals("Select a time period") || toType.equals("Select a time period")){
+            results.put("convertOutput", "Enter number, and time period");
+        } else{
+            String output = String.format("%s %s(s) equals %s %s(s)", num1, fromType, calcValues(num1, fromType, toType), toType);
+            results.put("convertOutput", output);
+        }
+
         req.setAttribute("results", results);
         req.getRequestDispatcher("WEB-INF/tyler-calculator.jsp").forward(req, resp);
     }
 
-    private String calcValues(String num1, String option){
+    private String calcValues(String num1, String from, String to){
         float out = 0;
         Float numOne = Float.parseFloat(num1);
 
-        switch(option){
+        float inInches = 0;
+        switch (from) {
             case "inch":
-                out = numOne;
+                inInches = numOne;
                 break;
-
             case "feet":
-                out = (numOne)/12;
+                inInches = numOne * 12;
                 break;
-
             case "yard":
-                out = (numOne)/36;
+                inInches = numOne * 36;
+                break;
+        }
+
+        switch (to) {
+            case "inch":
+                out = inInches;
+                break;
+            case "feet":
+                out = inInches / 12;
+                break;
+            case "yard":
+                out = inInches / 36;
                 break;
         }
 
