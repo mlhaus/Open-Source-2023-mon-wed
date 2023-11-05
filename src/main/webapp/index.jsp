@@ -11,6 +11,8 @@
             Kate's Compound Interest Calculator
         </a>
         <br/>
+        <a href="james-measuring-conversion">Measuring Conversions - James</a>
+        <br/>
         <a href="jared_volume_conversion">
             Jared's Volume Converter
         </a>
