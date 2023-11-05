@@ -19,6 +19,6 @@
         <br/>
         <a href="tyler-calculator">Tyler's Calculator</a>
         <br/>
-        <a href="mitchellservlet">Hello Servlet</a>
+        <a href="mitchellservlet">Mitchell's Calculator</a>
     </body>
 </html>
