@@ -8,8 +8,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<html>
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jennifer's Measurement Conversion Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -18,9 +21,11 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-6">
-                <h1>Conversion Calculator</h1>
-                <p class="lead">Select the units of conversion you would like to <br />perform and enter the beginning quantity.
-                    <br /><br />Press the submit button to see the result.</p>
+                <h1>Measurement Conversion Calculator</h1>
+                <p class="lead">Enter the beginning quantity in whole numbers<br />or decimals (no fractions) and then select
+                    <br />the units of conversion you would like to perform.
+                    <br />
+                    <br />Press the submit button to see the result.</p>
                 <br>
                 <form method="POST" action="jen-convert">
                     <div class="form-group mb-2">
@@ -29,8 +34,8 @@
                     </div>
                     <br>
                     <div>
-                        <select name="conversion" value="${results.get("conversion")}"   class="form-select" id="conversion"  aria-label="Select a measurement to convert from:">
-                            <option selected>Select a measurement to convert from:             </option>
+                        <select name="conversion" class="form-select" id="conversion"  aria-label="Select a measurement to convert from:">
+                            <option>Select a measurement to convert from:             </option>
                             <option ${results.conversion == 'OtoC' ? 'selected' : ''} value="OtoC">From Ounces to Cups</option>
                             <option ${results.conversion == 'OtoP' ? 'selected' : ''} value="OtoP">From Ounces to Pints</option>
                             <option ${results.conversion == 'CtoO' ? 'selected' : ''} value="CtoO">From Cups to Ounces</option>
@@ -43,14 +48,16 @@
                     <br>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                <br>
+                <br>
                 <c:if test="${results.quantityConverted !=''}">
                    <p>${results.quantityConverted}</p>
                 </c:if>
                 <c:if test="${results.conversionError !=''}">
-                    <p>${results.quantityConverted}</p>
+                    <p>${results.conversionError}</p>
                 </c:if>
                 <c:if test="${results.quantityError !=''}">
-                    <p>${results.quantityConverted}</p>
+                    <p>${results.quantityError}</p>
                 </c:if>
             </div>
         </div>

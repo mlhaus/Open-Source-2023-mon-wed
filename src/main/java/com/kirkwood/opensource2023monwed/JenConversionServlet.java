@@ -24,16 +24,15 @@ public class JenConversionServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("WEB-INF/jen-convert.jsp").forward(req, resp);
         String quantity = req.getParameter("quantity");
         String conversion = req.getParameter("conversion");
         results.clear();
         results.put("quantity", quantity);
         results.put("conversion", conversion);
+        convertMeasurement(quantity, conversion);
         req.setAttribute("results", results);
-        req.getRequestDispatcher("jen-convert.jsp").forward(req, resp);
+        req.getRequestDispatcher("WEB-INF/jen-convert.jsp").forward(req, resp);
     }
-
 
     private void convertMeasurement(String quantity, String conversion) {
         if (conversion == null || !conversion.equals("OtoC") && !conversion.equals("OtoP") &&
@@ -44,18 +43,37 @@ public class JenConversionServlet extends HttpServlet {
         if (!Helpers.isANumber(quantity)) {
             results.put("quantityError", "Please input a valid quantity");
         }
+
         if (!results.containsKey("conversionError") && !results.containsKey("quantityError")) {
             double quantityDouble = Double.parseDouble(quantity);
             if (conversion.equals("OtoC")) {
                 double quantityConverted = (quantityDouble * 0.125);
-                results.put("quantityConverted", String.format("%s Ounces = %s Cups", quantity, Helpers.round(quantityConverted)));
+                results.put("quantityConverted", String.format("%s Ounce(s) = %s Cup(s)", quantity, Helpers.round(quantityConverted)));
             }
-        }
-        if (!results.containsKey("conversionError") && !results.containsKey("quantityError")) {
-            double quantityDouble = Double.parseDouble(quantity);
+
+            if (conversion.equals("OtoP")) {
+                double quantityConverted = quantityDouble * 0.0625;
+                results.put("quantityConverted", String.format("%s Ounce(s) = %s Pint(s)", quantity, Helpers.round(quantityConverted)));
+            }
+
             if (conversion.equals("CtoO")) {
                 double quantityConverted = quantityDouble / 0.125;
-                results.put("quantityConverted", String.format("%s Cups = %s Ounces", quantity, Helpers.round(quantityConverted)));
+                results.put("quantityConverted", String.format("%s Cup(s) = %s Ounce(s)", quantity, Helpers.round(quantityConverted)));
+            }
+
+            if (conversion.equals("CtoP")) {
+                double quantityConverted = quantityDouble / 2 ;
+                results.put("quantityConverted", String.format("%s Cup(s) = %s Pint(s)", quantity, Helpers.round(quantityConverted)));
+            }
+
+            if (conversion.equals("PtoC")) {
+                double quantityConverted = quantityDouble * 2 ;
+                results.put("quantityConverted", String.format("%s Pint(s) = %s Cup(s)", quantity, Helpers.round(quantityConverted)));
+            }
+
+            if (conversion.equals("PtoO")) {
+                double quantityConverted = quantityDouble / 0.0625;
+                results.put("quantityConverted", String.format("%s Pint(s) = %s Ounce(s)", quantity, Helpers.round(quantityConverted)));
             }
         }
     }

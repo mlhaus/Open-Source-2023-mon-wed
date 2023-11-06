@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Commiting Map2Test_jennifer">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Commiting partially completed jennifer-calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/opensource2023monwed/JenConversionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/opensource2023monwed/JenConversionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jen-convert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jen-convert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/jen-convert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/jen-convert.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698096449579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commiting partially completed jennifer-calculator">
+      <created>1699226226314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699226226315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +296,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commiting xml file" />
     <MESSAGE value="Commiting Map2Test_jennifer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting Map2Test_jennifer" />
+    <MESSAGE value="Commiting partially completed jennifer-calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting partially completed jennifer-calculator" />
   </component>
 </project>
