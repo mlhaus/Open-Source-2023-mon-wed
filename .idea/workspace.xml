@@ -79,7 +79,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.13">
+  <component name="RunManager" selected="JUnit.java in Open-Source-2023-mon-wed">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="Open-Source-2023-mon-wed" />
@@ -102,6 +102,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in Open-Source-2023-mon-wed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Open-Source-2023-mon-wed" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,10 +206,12 @@
     <list>
       <item itemvalue="Application.HelloServlet" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.java in Open-Source-2023-mon-wed" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in Open-Source-2023-mon-wed" />
         <item itemvalue="Application.HelloServlet" />
         <item itemvalue="Application.Test" />
       </list>
