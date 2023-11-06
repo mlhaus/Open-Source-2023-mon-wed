@@ -20,15 +20,28 @@ public class MitchellServlet extends HttpServlet {
     private int numerator;
 
     private int denominator;
+
+    private String select;
+    //
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             numerator = Integer.parseInt(req.getParameter("numerator"));
             denominator = Integer.parseInt(req.getParameter("denominator"));
+            select = req.getParameter("fractionType");
             result.clear();
-            result.put("convertOutput", this.MixedNumber());
+            if( select.equals("mixed") ) {
+                result.put("convertOutput", this.MixedNumber() );
+            } else {
+                result.put("convertOutput", this.SimplifyNumber() );
+            }
+
         } catch (Exception e) {
-            result.put("convertOutput", "NaN");
+            if (req.getParameter("numerator") == "" && req.getParameter("denominator") == "") {
+                result.put("convertOutput", "Enter a Numerator and Denominator");
+            } else {
+                result.put("convertOutput", "NaN");
+            }
         }
         req.setAttribute("result",result);
         req.getRequestDispatcher("WEB-INF/mitchelljsp.jsp").forward(req,resp);
@@ -72,4 +85,22 @@ public class MitchellServlet extends HttpServlet {
         }
         return num;
     }
+
+    public String SimplifyNumber() {
+        int gcd = greatestCommonDivisor(this.numerator, this.denominator);
+        this.numerator /= gcd;
+        this.denominator /= gcd;
+        if(this.numerator >= 0 && this.denominator < 0 || this.numerator < 0 && this.denominator < 0) {
+            this.numerator *= -1;
+            this.denominator *= -1;
+        }
+        return (this.numerator + "/" + this.denominator);
+    }
+
+    public static int greatestCommonDivisor(int num1, int num2) {
+        BigInteger i = BigInteger.valueOf(num1).gcd(BigInteger.valueOf(num2));
+        int gcd = Integer.parseInt(i.toString());
+        return gcd;
+    }
 }
+
