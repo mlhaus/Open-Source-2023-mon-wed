@@ -17,7 +17,7 @@ public class FractionConvert extends HttpServlet {
     private static Map<String, String> results = new HashMap<>();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
+        request.getRequestDispatcher("WEB-INF/matthew.jsp").forward(request,response);
     }
 
     @Override
@@ -39,7 +39,7 @@ public class FractionConvert extends HttpServlet {
             results.put("results", "Improper input " + "\n" + ex);
         }
         request.setAttribute("results",results);
-        request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
+        request.getRequestDispatcher("WEB-INF/matthew.jsp").forward(request,response);
     }
 }
 
