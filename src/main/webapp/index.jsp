@@ -1,4 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html>
     <head>
         <title>JSP - Hello World</title>
@@ -39,7 +40,9 @@
         <a href="distance-convert">Christivie's Calculator</a>
         <br/>
         <a href="chrisFutureValue">Chris's Future Value Calculator</a>
-        <br/>9
+        <br/>
         <a href="fractionconvert">Matthew's Fraction calculator</a>
+        <br>
+        <a href="michael_tvm_calculator">TVM by Michael</a>
     </body>
 </html>
