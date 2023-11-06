@@ -38,7 +38,7 @@
         </a>
         <br/>
         <a href="distance-convert">Christivie's Calculator</a>
-        <br/>
+        <br>
         <a href="chrisFutureValue">Chris's Future Value Calculator</a>
         <br/>
         <a href="fractionconvert">Matthew's Fraction calculator</a>
