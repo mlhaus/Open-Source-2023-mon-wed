@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!doctype html>
 <html lang="en">
@@ -21,7 +22,7 @@
     <div class="container my-4">
         <div class="row">
             <div class="col-6">
-                <h1>Measurement Conversion Calculator</h1>
+                <h1>Conversion Calculator</h1>
                 <p class="lead">Enter the beginning quantity in whole numbers<br />or decimals (no fractions) and then select
                     <br />the units of conversion you would like to perform.
                     <br />
