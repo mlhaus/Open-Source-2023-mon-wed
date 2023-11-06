@@ -9,7 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="message" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="message">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/DistanceConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/TempConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/calculator.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/convert-dis.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/convert-temp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_donald.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_donald.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +92,7 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.java in Open-Source-2023-mon-wed">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.13">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
       <module name="Open-Source-2023-mon-wed" />
