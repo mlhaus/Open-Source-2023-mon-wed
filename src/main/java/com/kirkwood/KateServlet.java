@@ -55,13 +55,15 @@ public class KateServlet extends HttpServlet {
             if(timePeriod.equals("mo")) {
                 double interestRate = interestDouble / 100 / 12;
                 double futureValue = presentDouble * Math.pow((1 + interestRate), timePeriodDouble);
-                results.put("futureValue", String.format("$%,.2f in %s months = $%,.2f", Double.parseDouble(presentValue), numberOfTimePeriods,
+                results.put("futureValue", String.format("$%,.2f at %s%% annual interest in %s months = $%,.2f",
+                        Double.parseDouble(presentValue), annualInterestRate, numberOfTimePeriods,
                         Double.parseDouble(Helpers.round(futureValue))));
             }
             if(timePeriod.equals("yr")) {
                 double interestRate = interestDouble / 100;
                 double futureValue = presentDouble * Math.pow((1 + interestRate), timePeriodDouble);
-                results.put("futureValue", String.format("$%,.2f in %s years = $%,.2f", Double.parseDouble(presentValue), numberOfTimePeriods,
+                results.put("futureValue", String.format("$%,.2f at %s%% interest in %s years = $%,.2f",
+                        Double.parseDouble(presentValue), annualInterestRate, numberOfTimePeriods,
                         Double.parseDouble(Helpers.round(futureValue))));
             }
         }
