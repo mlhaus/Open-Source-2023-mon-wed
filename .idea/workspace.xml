@@ -10,18 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="message">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/CalculatorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/DistanceConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/contribution4/TempConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/calculator.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/convert-dis.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ConversionHub/convert-temp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map1Test_donald.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kirkwood/contribution2/Map2Test_donald.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
