@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Updated My Compound Interest Calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/KateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/KateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/utilities/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/utilities/Helpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,11 +274,26 @@
       <workItem from="1698438379501" duration="248000" />
       <workItem from="1698452277365" duration="4000" />
       <workItem from="1698596373969" duration="346000" />
-      <workItem from="1698630400162" duration="441000" />
+      <workItem from="1698630400162" duration="672000" />
+      <workItem from="1698760970485" duration="242000" />
+      <workItem from="1699326217403" duration="687000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated My Compound Interest Calculator">
+      <option name="closed" value="true" />
+      <created>1698630905539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698630905539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated My Compound Interest Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated My Compound Interest Calculator" />
   </component>
 </project>
