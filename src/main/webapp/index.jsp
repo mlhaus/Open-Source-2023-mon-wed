@@ -7,6 +7,10 @@
         <body>
         <h1>Java 2 Kirkwood Monday-Wednesday Calculators</h1>
         <br/>
+        <a href="ibrahim_meters_miles_kilometers">
+            Ibrahim's Meters-Miles-Kilometers Calculator
+        </a>
+        <br/>
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
         </a>
