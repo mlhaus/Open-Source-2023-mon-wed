@@ -9,8 +9,9 @@ public class Helpers {
         df.setRoundingMode(RoundingMode.HALF_UP);
         return df.format(num);
     }
-    public static boolean isANumber(String num) {
-        try {
+
+    public static boolean isANumber(String num){
+        try{
             Double.parseDouble(num);
             return true;
         } catch(NumberFormatException e) {
