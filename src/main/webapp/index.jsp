@@ -53,5 +53,9 @@
         <a href="andrew_inches_feet_yards">
             Andrew's Inches, Feet, and Yards, Calculator
         </a>
+        <br/>
+        <a href="max-time-calculator">
+            Max's seconds, minutes, hours Calculator
+        </a>
     </body>
 </html>
