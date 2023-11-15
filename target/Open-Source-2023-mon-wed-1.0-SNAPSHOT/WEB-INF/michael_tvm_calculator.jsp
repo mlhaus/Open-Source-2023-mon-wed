@@ -10,10 +10,14 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    String results = (String)request.getAttribute("results");
+    Map<String, String> results = (HashMap<String, String>)request.getAttribute("results");
     if(results == null){
-        results = "";
+        results = new HashMap<>();
     }
+//    String results = (String)request.getAttribute("results");
+//    if(results == null){
+//        results = "";
+//    }
 %>
 <html>
 <head>
@@ -33,15 +37,15 @@
                     <div class="form-group mb-4">
                         <label for="presentValue">Present Value</label>
                         <div class="col-4">
-                            <input name="presentValue" value="${presentValue}" type="text"
+                            <input name="presentValue" value="${results.get("presentValue")}" type="text"
                                    class="form-control"  id="presentValue">
                         </div>
                     </div>
-                    <div class="form-group mb-2 col-5">
+                    <div class="form-group mb-2 col-6">
                         <label for="interestRate">Interest Rate (compounded by period)</label>
                         <br>
                         <div class="d-inline-block col-4">
-                            <input name="interestRate" value="${interestRate}" type="text"
+                            <input name="interestRate" value="${results.get("interestRate")}" type="text"
                                    class="form-control" id="interestRate">
                         </div>
 
@@ -52,27 +56,26 @@
                     <div class="form-group mb-2">
                         <div class="col-4 d-inline-block">
                             <label for="numberOfPeriods">Periods</label>
-                            <input name="numberOfPeriods" value="${numberOfPeriods}" type="text"
+                            <input name="numberOfPeriods" value="${results.get("numberOfPeriods")}" type="text"
                                    class="form-control" id="numberOfPeriods">
                         </div>
                         <div class="col-3 d-inline-block">
                             <select name="usesMonths" id="usesMonths" class="form-select" area-label="select months or years">
-                                <option value="months" selected>Months</option>
-                                <option value="years">Years</option>
+                                <option value="months" ${results.get("usesMonths").equals("months") ? 'selected' : ''}>Months</option>
+                                <option value="years" ${results.get("usesMonths").equals("years") ? 'selected' : ''}>Years</option>
                             </select>
                         </div>
                     </div>
                     <button type="submit", class="btn btn-primary">Calculate Future Value</button>
                 </form>
+                <div class="mb-2 col6">
+                    <p>${results.get("futureValue")}</p>
+                </div>
             </div>
         </div>
+
     </div>
     <br>
-    <div class="mb-2 col6">
-        <p>${results}"</p>
-    </div>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>

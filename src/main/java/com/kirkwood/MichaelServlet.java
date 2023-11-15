@@ -7,6 +7,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 
 @WebServlet(name = "michaelServlet", value = "/michael_tvm_calculator")
@@ -28,8 +30,14 @@ public class MichaelServlet extends HttpServlet {
         String interestRate = req.getParameter("interestRate");
         String numberOfPeriods = req.getParameter("numberOfPeriods");
         String usesMonths = req.getParameter("usesMonths");
-        String results = "";
-        results = calculateFutureValue(presentValue, interestRate, numberOfPeriods, usesMonths);
+        //String results = "";
+        Map<String, String> results = new HashMap<>();
+        results.put("presentValue", presentValue);
+        results.put("interestRate", interestRate);
+        results.put("numberOfPeriods", numberOfPeriods);
+        results.put("usesMonths", usesMonths);
+        results.put("futureValue", calculateFutureValue(presentValue, interestRate, numberOfPeriods, usesMonths));
+        //results = calculateFutureValue(presentValue, interestRate, numberOfPeriods, usesMonths);
         req.setAttribute("results", results);
         req.getRequestDispatcher("WEB-INF/michael_tvm_calculator.jsp").forward(req, resp);
 
