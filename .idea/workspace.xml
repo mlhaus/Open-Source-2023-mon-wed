@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Open-Source-2023-mon-wed:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="message">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/MichaelServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/MichaelServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/michael_tvm_calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/michael_tvm_calculator.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/michael_tvm_calculator.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/WEB-INF/michael_tvm_calculator.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +24,28 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="upstream/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="wyatt-map2-test" />
+        <entry key="$PROJECT_DIR$" value="matt-tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +54,9 @@
         &quot;associatedIndex&quot;: 8
         }</component>
   <component name="ProjectId" id="2WciUGlGhKbrmeDKV2lABbHhaJS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -63,40 +84,10 @@
       <recent name="com.kirkwood.contribution2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
-      <option name="appName" />
-      <option name="appServicePlanName" />
-      <option name="appServicePlanResourceGroup" />
-      <option name="appSettingsKey" value="817fba40-61e5-4d45-9b5e-6db82f01930d" />
-      <option name="artifact" />
-      <option name="debugOptions" />
-      <option name="deployment" />
-      <option name="deploymentStagingDirectoryPath" />
-      <option name="funcPath" />
-      <option name="functionHostArguments" />
-      <option name="hostJsonPath" />
-      <option name="insightsName" />
-      <option name="instrumentationKey" />
-      <option name="javaVersion" />
-      <option name="localSettingsJsonPath" />
-      <option name="moduleName" />
-      <option name="os" />
-      <option name="pricingTier" />
-      <option name="providerMap">
-        <map />
-      </option>
-      <option name="region" />
-      <option name="resourceGroup" />
-      <option name="stagingFolder" />
-      <option name="subscription" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.13">
     <configuration name="HelloServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hauschildt.emptywebapp.HelloServlet" />
-      <module name="empty-web-app" />
+      <module name="Open-Source-2023-mon-wed" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hauschildt.emptywebapp.*" />
@@ -120,60 +111,112 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map1Test_Wyatt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java in Open-Source-2023-mon-wed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-mon-wed" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
-      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map1Test_Wyatt" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map1Test_Wyatt.mapAB_Wyatt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Open-Source-2023-mon-wed" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
-      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map1Test_Wyatt" />
-      <option name="METHOD_NAME" value="mapAB_Wyatt" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Tomcat 10.1.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.13" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Open-Source-2023-mon-wed:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Open_Source_2023_mon_wed_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e1a9480a-7974-4057-acdd-900170271587" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56663" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Open-Source-2023-mon-wed:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration name="Map2Test.pairs_Wyatt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Open-Source-2023-mon-wed" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kirkwood.contribution2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kirkwood.contribution2" />
-      <option name="MAIN_CLASS_NAME" value="com.kirkwood.contribution2.Map2Test" />
-      <option name="METHOD_NAME" value="pairs_Wyatt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.HelloServlet" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.java in Open-Source-2023-mon-wed" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.13" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Map2Test.pairs_Wyatt" />
-        <item itemvalue="JUnit.Map1Test_Wyatt.mapAB_Wyatt" />
-        <item itemvalue="JUnit.Map1Test_Wyatt" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HelloServlet" />
+        <item itemvalue="JUnit.java in Open-Source-2023-mon-wed" />
       </list>
     </recent_temporary>
   </component>
@@ -187,25 +230,17 @@
       <updated>1697038283134</updated>
       <workItem from="1697038284109" duration="164000" />
       <workItem from="1697038450736" duration="616000" />
-      <workItem from="1697649304543" duration="438000" />
-      <workItem from="1698254406189" duration="573000" />
-      <workItem from="1700589343999" duration="2538000" />
+      <workItem from="1697424097195" duration="1720000" />
+      <workItem from="1698260968895" duration="736000" />
+      <workItem from="1698434961277" duration="584000" />
+      <workItem from="1698438379501" duration="248000" />
+      <workItem from="1698452277365" duration="4000" />
+      <workItem from="1698596373969" duration="346000" />
+      <workItem from="1698630400162" duration="441000" />
     </task>
-    <task id="LOCAL-00001" summary="xml">
-      <created>1700591592896</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700591592896</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
 </project>

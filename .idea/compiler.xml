@@ -9,5 +9,8 @@
         <module name="Open-Source-2023-mon-wed" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java2-kirkwood" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
