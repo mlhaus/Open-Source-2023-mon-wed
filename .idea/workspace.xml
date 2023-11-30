@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Contribution 3 and 4">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Contribution 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +74,36 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.13">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="4993f072-bf0b-41cc-9ae2-499df6c3a8be" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Open-Source-2023-mon-wed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Open-Source-2023-mon-wed" />
       <option name="PACKAGE_NAME" value="" />
@@ -262,11 +292,27 @@
       <workItem from="1698438379501" duration="248000" />
       <workItem from="1698452277365" duration="4000" />
       <workItem from="1698596373969" duration="346000" />
-      <workItem from="1699389282976" duration="1132000" />
+      <workItem from="1699389282976" duration="1857000" />
+      <workItem from="1701281240507" duration="693000" />
+      <workItem from="1701368296971" duration="331000" />
+      <workItem from="1701370003109" duration="1763000" />
+      <workItem from="1701377697240" duration="624000" />
     </task>
+    <task id="LOCAL-00001" summary="Contribution 5">
+      <created>1699390460178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699390460178</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Contribution 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contribution 5" />
   </component>
 </project>
