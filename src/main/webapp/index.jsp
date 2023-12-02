@@ -61,5 +61,9 @@
         <a href="max-time-calculator">
             Max's seconds, minutes, hours Calculator
         </a>
+        <br/>
+        <a href="wyatt_conversion">
+            Wyatt's Calculator
+        </a>
     </body>
 </html>
