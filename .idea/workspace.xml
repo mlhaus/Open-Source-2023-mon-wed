@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Open-Source-2023-mon-wed:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="Contribution 5">
+    <list default="true" id="f661a15f-1ad2-4067-a735-e56feb6188b0" name="Changes" comment="ConversionServlet update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kirkwood/opensource2023monwed/convresion/ConvresionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kirkwood/opensource2023monwed/convresion/ConvresionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conversion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conversion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Open-Source-2023-mon-wed-1.0-SNAPSHOT/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -28,6 +38,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -296,7 +313,8 @@
       <workItem from="1701281240507" duration="693000" />
       <workItem from="1701368296971" duration="331000" />
       <workItem from="1701370003109" duration="1763000" />
-      <workItem from="1701377697240" duration="624000" />
+      <workItem from="1701377697240" duration="1407000" />
+      <workItem from="1701810182720" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="Contribution 5">
       <created>1699390460178</created>
@@ -305,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699390460178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ConveresionServlet">
+      <created>1701378417623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701378417623</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ConversionServlet update">
+      <created>1701378768423</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701378768423</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +345,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Contribution 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contribution 5" />
+    <MESSAGE value="ConveresionServlet" />
+    <MESSAGE value="ConversionServlet update" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConversionServlet update" />
   </component>
 </project>

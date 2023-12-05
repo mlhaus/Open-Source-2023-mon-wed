@@ -9,6 +9,7 @@
         <br/>
         <a href="kate_compound_interest">
             Kate's Compound Interest Calculator
-        </a>
+        </a><br/>
+        <a href="conversion">conversion</a>
     </body>
 </html>

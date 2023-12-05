@@ -7,16 +7,16 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-    @WebServlet(name= "ConversionServlet", value = "/conversion")
+    @WebServlet(name= "ConversionServlet", value = "/conversion2")
     class ConversionServlet extends HttpServlet {
-        private static final long serialVersionUID = 1L;
+
+
 
         @Override
-        public void init() throws ServletException {
-            // Initialization code (if needed)
+        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+            req.getRequestDispatcher("WEB-INF/conversion.jsp").forward(req, resp);
         }
-
-        protected void doGet(HttpServletRequest request, HttpServletResponse response)
+        protected void doPost(HttpServletRequest request, HttpServletResponse response)
                 throws ServletException, IOException {
             String selectedUnit = request.getParameter("unit");
             request.setAttribute("selectedUnit", selectedUnit);
