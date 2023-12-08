@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="matt-tests" />
+        <entry key="$PROJECT_DIR$" value="miyadaabas-miyada_Calculator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -242,5 +242,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="message" />
+    <MESSAGE value="too many errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="too many errors" />
   </component>
 </project>
