@@ -65,5 +65,7 @@
         <a href="wyatt_conversion">
             Wyatt's Calculator
         </a>
+        </a><br/>
+        <a href="conversion">Miyada's conversion</a>
     </body>
 </html>
